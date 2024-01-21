@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"HeroGuidesSupported"		"0"
+	"PenaltiesEnabled"		"0"
+	"1x1"
+	{
+		"MaxPlayers"		"2"
+	}
+	"2x2"
+	{
+		"MaxPlayers"		"4"
+	}
+}

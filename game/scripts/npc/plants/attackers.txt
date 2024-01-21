@@ -1,0 +1,1270 @@
+// Units File
+""
+{
+
+	
+	//=================================================================================
+	// Creature: PLANTS ATTACKERS
+	//=================================================================================
+	"npc_plants_attacker_1"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant_flower_1.vmdl"
+		"ModelScale"				"0.8"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_1_upgrade"			// Ability 1
+		"Ability2"					"attacker_1_attacks"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10 12 12
+		// AR 1 0.9 0.9
+		//HP 40 
+		"AttackDamageMin"			"10"		// Damage range min.
+		"AttackDamageMax"			"10"		// Damage range max.
+		"AttackRate"				"1.0"		// Speed of attack.
+		"StatusHealth"				"40"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_1_2" // -0.1 as and +5 damage
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant_flower_1.vmdl"
+		"ModelScale"				"0.92"
+		"Level"						"2"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_12_upgrade"			// Ability 1
+		"Ability2"					"attacker_1_attacks"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10 12 12
+		// AR 1 0.9 0.9
+		//HP 40 
+		"AttackDamageMin"			"12"		// Damage range min.
+		"AttackDamageMax"			"12"		// Damage range max.
+		"AttackRate"				"0.9"		// Speed of attack.
+		"StatusHealth"				"40"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"75"		// Gold earned min.
+		"BountyGoldMax"				"75"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		
+		"StatusHealthRegen"			"0"			// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_1_3" // double attack
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant_flower_1.vmdl"
+		"ModelScale"				"1.04"
+		"Level"						"3"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_1_attacks"			// Ability 1
+		"Ability2"					"attacker_1_double_attacks"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10 12 12
+		// AR 1 0.9 0.9
+		//HP 40 
+		"AttackDamageMin"			"12"		// Damage range min.
+		"AttackDamageMax"			"12"		// Damage range max.
+		"AttackRate"				"0.9"		// Speed of attack.
+		"StatusHealth"				"40"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"100"		// Gold earned min.
+		"BountyGoldMax"				"100"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"			// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+	// Creature: PLANTS ATTACKERS 2
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+
+	"npc_plants_attacker_2"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/furion_treant_nelum_red/furion_treant_nelum_red.vmdl"
+		"ModelScale"				"0.7"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_2_upgrade"			// Ability 1
+		"Ability2"					"attacker_2_attacks"			// Ability 2.
+		"Ability3"					"attacker_2_splash"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 15 18 21
+		// AR 1.5 1.5 1.5
+		//HP 40 
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"15"		// Damage range min. DPS 40
+		"AttackDamageMax"			"15"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_2_2"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/furion_treant_nelum_red/furion_treant_nelum_red.vmdl"
+		"ModelScale"				"0.8"
+		"Level"						"2"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		// DAMAGE 15 18 21
+		// AR 1.5 1.5 1.5
+		//HP 40 
+		"Ability1"					"attacker_22_upgrade"			// Ability 1
+		"Ability2"					"attacker_2_attacks"			// Ability 2.
+		"Ability3"					"attacker_2_splash"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"18"		// Damage range min. DPS 40
+		"AttackDamageMax"			"18"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_2_3"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/furion_treant_nelum_red/furion_treant_nelum_red.vmdl"
+		"ModelScale"				"0.9"
+		"Level"						"3"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+
+		// DAMAGE 15 18 21
+		// AR 1.5 1.5 1.5
+		// HP 40
+
+		"Ability1"					"attacker_2_attacks"			// Ability 1
+		"Ability2"					"attacker_2_splash"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"21"		// Damage range min. DPS 40
+		"AttackDamageMax"			"21"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+	// Creature: PLANTS ATTACKERS 3
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+
+	"npc_plants_attacker_3"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/defender_of_the_jungle_lakad_coconut/defender_of_the_jungle_lakad_coconut.vmdl"
+		"ModelScale"				"0.9"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_3_upgrade"			// Ability 1
+		"Ability2"					"attacker_3_attacks"			// Ability 2.
+		"Ability3"					"attacker_3_penetration"		// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 15 15 15
+		// AR 0.9 0.7 0.5
+		//HP 60 
+		"AttackDamageMin"			"15"		// Damage range min.
+		"AttackDamageMax"			"15"		// Damage range max.
+		"AttackRate"				"0.9"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"		// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"350"		// Range within a target can be acquired.
+		"AttackRange"				"350"		// Range within a target can be attacked.
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+	}
+
+	"npc_plants_attacker_3_2"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/defender_of_the_jungle_lakad_coconut/defender_of_the_jungle_lakad_coconut.vmdl"
+		"ModelScale"				"1.0"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_32_upgrade"			// Ability 1
+		"Ability2"					"attacker_3_attacks"			// Ability 2.
+		"Ability3"					"attacker_3_penetration"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 15 15 15
+		// AR 0.9 0.7 0.5
+		//HP 60 
+		"AttackDamageMin"			"15"		// Damage range min.
+		"AttackDamageMax"			"15"		// Damage range max.
+		"AttackRate"				"0.7"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"350"		// Range within a target can be acquired.
+		"AttackRange"				"350"		// Range within a target can be attacked.
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+	}
+
+	"npc_plants_attacker_3_3"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/defender_of_the_jungle_lakad_coconut/defender_of_the_jungle_lakad_coconut.vmdl"
+		"ModelScale"				"1.1"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_3_attacks"			// Ability 1
+		"Ability2"					"attacker_3_penetration"		// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 15 15 15
+		// AR 0.9 0.7 0.5
+		// HP 60 
+
+		"AttackDamageMin"			"15"		// Damage range min.
+		"AttackDamageMax"			"15"		// Damage range max.
+		"AttackRate"				"0.5"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"350"		// Range within a target can be acquired.
+		"AttackRange"				"350"		// Range within a target can be attacked.
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"160"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+	}
+	
+
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+	// Creature: PLANTS ATTACKERS 4
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+
+	"npc_plants_attacker_4"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/hallowed_horde/hallowed_horde.vmdl"
+		"ModelScale"				"0.85"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		
+		"Ability1"					"attacker_4_upgrade"			// Ability 1
+		"Ability2"					"attacker_4_attacks"			// Ability 2.
+		"Ability3"					"attacker_4_splash_attacks"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+
+		// DAMAGE 20 25 30
+		// AR 2
+		// HP 40 
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"20"		// Damage range min. DPS 37.5
+		"AttackDamageMax"			"20"		// Damage range max.
+		"AttackRate"				"2"			// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"200"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_4_2"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/hallowed_horde/hallowed_horde.vmdl"
+		"ModelScale"				"0.935"
+		"Level"						"2"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_42_upgrade"			// Ability 1
+		"Ability2"					"attacker_4_attacks"			// Ability 2.
+		"Ability3"					"attacker_4_splash_attacks"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 20 25 30
+		// AR 2
+		// HP 40 
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"25"		// Damage range min. DPS 37.5
+		"AttackDamageMax"			"25"		// Damage range max.
+		"AttackRate"				"2"			// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"220"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+	}
+	"npc_plants_attacker_4_3"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/hallowed_horde/hallowed_horde.vmdl"
+		"ModelScale"				"1.02"
+		"Level"						"3"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_4_attacks"	// Ability 1
+		"Ability2"					"attacker_4_splash_attacks"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 20 25 30
+		// AR 2
+		// HP 40
+		"StatusHealth"				"40"		// Base health.
+		"AttackDamageMin"			"30"		// Damage range min. DPS 37.5
+		"AttackDamageMax"			"30"		// Damage range max.
+		"AttackRate"				"2"			// Speed of attack.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"3000"		// Range within a target can be acquired.
+		"AttackRange"				"3000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"240"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+	}
+
+
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+	// Creature: PLANTS ATTACKERS 5 coconut
+	//=================================================================================
+	//=================================================================================
+	//=================================================================================
+
+	"npc_plants_attacker_5"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/eternalseasons_treant/eternalseasons_treant.vmdl"
+		"ModelScale"				"1.1"
+		"Level"						"1"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_5_upgrade"			// Ability 1
+		"Ability2"					"attacker_5_attacks"			// Ability 2.
+		"Ability3"					"attacker_5_bash"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10
+		// AR 0.5 0.4 0.3
+		// HP 60
+		"AttackDamageMin"			"10"		// Damage range min. // DPS 50
+		"AttackDamageMax"			"10"		// Damage range max.
+		"AttackRate"				"0.5"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		"AttackAnimationPoint"		"0.25"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"2000"		// Range within a target can be acquired.
+		"AttackRange"				"2000"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"200"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_5_2"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/eternalseasons_treant/eternalseasons_treant.vmdl"
+		"ModelScale"				"1.2"
+		"Level"						"2"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_52_upgrade"			// Ability 1
+		"Ability2"					"attacker_5_attacks"			// Ability 2
+		"Ability3"					"attacker_5_bash"			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10
+		// AR 0.5 0.4 0.3
+		// HP 60
+		"AttackDamageMin"			"10"		// Damage range min. // DPS 50
+		"AttackDamageMax"			"10"		// Damage range max.
+		"AttackRate"				"0.4"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.2"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"350"		// Range within a target can be acquired.
+		"AttackRange"				"350"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"200"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+	"npc_plants_attacker_5_3"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/items/furion/treant/eternalseasons_treant/eternalseasons_treant.vmdl"
+		"ModelScale"				"1.3"
+		"Level"						"3"
+		"IsSummoned"				"1"
+		
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"attacker_5_attacks"			// Ability 1
+		"Ability2"					"attacker_5_bash"			// Ability 2
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// DAMAGE 10
+		// AR 0.5 0.4 0.3
+		// HP 60
+		"AttackDamageMin"			"10"		// Damage range min. // DPS 50
+		"AttackDamageMax"			"10"		// Damage range max.
+		"AttackRate"				"0.3"		// Speed of attack.
+		"StatusHealth"				"60"		// Base health.
+
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"			// Physical protection.
+		"MagicalResistance"			"0"		// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackAnimationPoint"		"0.15"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"350"		// Range within a target can be acquired.
+		"AttackRange"				"350"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"64"
+		"HealthBarOffset"			"200"
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"	
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"		// Speed
+		"MovementTurnRate"			"0.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"600"		// Range of vision at night time.
+
+	}
+
+}

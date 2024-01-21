@@ -1,0 +1,10 @@
+<root>
+  <Panel class="AddonLoadingRoot">
+	
+	
+	<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/ability_bg.png" />
+	<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/right_flare.png" />
+	<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/side_flare.png" />
+
+  </Panel>
+</root>

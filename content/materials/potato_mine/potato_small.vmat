@@ -1,0 +1,48 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Normal Maps ----
+	F_NORMAL_MAP 1
+
+	//---- Specular ----
+	F_SPECULAR 1
+
+	//---- Color ----
+	g_vColorTint "[0.545098 0.533333 0.427451 0.000000]"
+	g_vTexCoordOffset "[-1.000 0.000]"
+	g_vTexCoordScale "[0.279 0.280]"
+	TextureColor "materials/potato_mine/potato_color.tga"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	TextureNormal "materials/potato_mine/potato_normal.tga"
+
+	//---- Self Illum ----
+	TextureSelfIllumMask "materials/default/default_selfillum.tga"
+
+	//---- Specular ----
+	g_flSpecularBloom "0.012"
+	g_flSpecularIntensity "0.138"
+	TextureBloom "materials/default/default_bloom.tga"
+	TextureReflectance "materials/potato_mine/potato_refl.tga"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Normal Map"
+		{
+		}
+		"Self Illum"
+		{
+		}
+		"Specular"
+		{
+		}
+	}
+}

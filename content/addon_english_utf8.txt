@@ -1,0 +1,283 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"addon_game_name"			"Plants vs Zombies"
+
+		"error_cannot_dig_this"		"WTF R U DOING??"
+
+		"DOTA_Winner_GoodGuys"			"Plants Victory"
+		"DOTA_Winner_BadGuys"			"Zombies Vizctory"
+
+		"npc_dota_hero_treant"			"Treant Protector"
+		"npc_dota_hero_undying"			"Stupid Zombie"
+
+		"Dota_tooltip_ability_dig_plant"						"Shovel"
+		"Dota_tooltip_ability_dig_plant_description"			"Dig up a selected plant"
+		"Dota_tooltip_ability_treant_end_game"					"Ransom"
+		"Dota_tooltip_ability_treant_end_game_description"		"Pay off the zombies"
+		"Dota_tooltip_ability_treant_end_game_lore"				"zombies will fall behind"
+
+		"Dota_tooltip_ability_spawn_attackers"					"Spawn attackers"
+		"Dota_tooltip_ability_spawn_attackers_description"		"Plant type selection"
+		"Dota_tooltip_ability_spawn_defenders"					"Spawn attackers"
+		"Dota_tooltip_ability_spawn_defenders_description"		"Plant type selection"
+		"Dota_tooltip_ability_spawn_specials"					"Spawn defenders"
+		"Dota_tooltip_ability_spawn_specials_description"		"Plant type selection. There is sunflower"
+		"Dota_tooltip_ability_plants_spawner_back"				"Back"
+		"Dota_tooltip_ability_plants_spawner_back_description"	"Back to plants type selection"
+
+		//===== PLANTS ATTACKER 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor
+
+		"npc_plants_attacker_1"									"Clematis"
+		"npc_plants_attacker_1_2"								"Clematis"
+		"npc_plants_attacker_1_3"								"Clematis"
+		"Dota_tooltip_ability_plants_attacker_1"				"Clematis"
+		"Dota_tooltip_ability_plants_attacker_1_description"	"Spawn Clematis.<br>Attack type: <font color='#f47fff'>RANGED</font><br><br><font color='#7fffaa'>Health:  50</font><br><font color='#ff7f7f'>Damage:  10</font><br><font color='#eeff7f'>Attack Rate:  1</font>"
+		"Dota_tooltip_ability_attacker_1_upgrade"				"Upgrade Clematis"
+		"Dota_tooltip_ability_attacker_1_upgrade_description"	"<font color='#7fffaa'>Health:  75</font><br><font color='#ff7f7f'>Damage:  15</font><br><font color='#eeff7f'>Attack Rate:  0.9</font>"
+		"Dota_tooltip_ability_attacker_12_upgrade"				"Upgrade Clematis"
+		"Dota_tooltip_ability_attacker_12_upgrade_description"	"Gives new ability: <font color='#bf7fff'>DOUBLE ATTACK</font><br><br><font color='#7fffaa'>Health:  100</font><br><font color='#ff7f7f'>Damage:  20</font><br><font color='#eeff7f'>Attack Rate:  0.9</font>"
+		"Dota_tooltip_ability_attacker_1_attacks"				"Clematis attack"
+		"Dota_tooltip_ability_attacker_1_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_attacker_1_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_attacker_1_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_attacker_1_double_attacks"		"Double Attack"
+		"Dota_tooltip_ability_attacker_1_double_attacks_description"	"Clematis perform double-attack"
+		
+		//===== PLANTS ATTACKER 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius
+
+		"npc_plants_attacker_2"									"Nelum"
+		"npc_plants_attacker_2_2"								"Nelum"
+		"npc_plants_attacker_2_3"								"Nelum"
+		"Dota_tooltip_ability_plants_attacker_2"				"Nelum"
+		"Dota_tooltip_ability_plants_attacker_2_description"	"Spawn Nelum.<br>Attack type: <font color='#f47fff'>RANGED</font><br>Ability: <font color='#f47fff'>Splash Attack</font><br>Nelum cleaves enemies around target<br><br><font color='#7fffaa'>Health:  50</font><br><font color='#ff7f7f'>Damage:  30</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_attacker_2_upgrade"				"Upgrade Nelum"
+		"Dota_tooltip_ability_attacker_2_upgrade_description"	"<font color='#7fffaa'>Health:  75</font><br><font color='#ff7f7f'>Damage:  45</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_attacker_22_upgrade"				"Upgrade Nelum"
+		"Dota_tooltip_ability_attacker_22_upgrade_description"	"<font color='#7fffaa'>Health:  100</font><br><font color='#ff7f7f'>Damage:  60</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_attacker_2_attacks"				"Nelum attack"
+		"Dota_tooltip_ability_attacker_2_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_attacker_2_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_attacker_2_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_attacker_2_splash"				"Splash Attack"
+		"Dota_tooltip_ability_attacker_2_splash_description"	"Nelum cleaves enemies around target"
+		"Dota_tooltip_ability_attacker_2_splash_radius"			"<font color='#7fd0ff'>Radius: </font>"			
+		"Dota_tooltip_ability_attacker_2_splash_damage"			"%<font color='#ff7f7f'>Damage: </font>"
+
+		
+		//===== PLANTS ATTACKER 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius #fdff7f melee
+
+		"npc_plants_attacker_3"									"Coconut"
+		"npc_plants_attacker_3_2"								"Coconut"
+		"npc_plants_attacker_3_3"								"Coconut"
+		"Dota_tooltip_ability_plants_attacker_3"				"Coconut"
+		"Dota_tooltip_ability_plants_attacker_3_description"	"Spawn Coconut.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1 CELL</font><br>Ability: <font color='#fdff7f'>Piercing Attack</font><br>Each attack decreases enemy's armor by 1.<br><br><font color='#7fffaa'>Health:  150</font><br><font color='#ff7f7f'>Damage:  35</font><br><font color='#eeff7f'>Attack Rate:  0.9</font>"
+		"Dota_tooltip_ability_attacker_3_upgrade"				"Upgrade Coconut"
+		"Dota_tooltip_ability_attacker_3_upgrade_description"	"<font color='#7fffaa'>Health:  200</font><br><font color='#ff7f7f'>Damage:  45</font><br><font color='#eeff7f'>Attack Rate:  0.7</font>"
+		"Dota_tooltip_ability_attacker_32_upgrade"				"Upgrade Coconut"
+		"Dota_tooltip_ability_attacker_32_upgrade_description"	"<font color='#7fffaa'>Health:  250</font><br><font color='#ff7f7f'>Damage:  55</font><br><font color='#eeff7f'>Attack Rate:  0.5</font>"
+		"Dota_tooltip_ability_attacker_3_attacks"				"Coconut attack"
+		"Dota_tooltip_ability_attacker_3_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_attacker_3_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_attacker_3_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_attacker_3_penetration"			"Piercing Attack"
+		"Dota_tooltip_ability_attacker_3_penetration_description"	"Each attack reduces enemy's armor. Maximum stacks : 5"
+		"Dota_tooltip_ability_attacker_3_penetration_armor"		"<font color='#7fd0ff'>Armor: </font>"			
+		"Dota_tooltip_ability_attacker_3_penetration_duration"	"<font color='#ff7f7f'>Duration: </font>"
+		"Dota_tooltip_modifier_attacker_3_penetration_debuff"	"Piercing Attack"
+		"Dota_tooltip_modifier_attacker_3_penetration_debuff_description"	"Armor decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		//===== PLANTS ATTACKER 4 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius
+
+		"npc_plants_attacker_4"									"Pumpkin"
+		"npc_plants_attacker_4_2"								"Pumpkin"
+		"npc_plants_attacker_4_3"								"Pumpkin"
+		"Dota_tooltip_ability_plants_attacker_4"				"Pumpkin"
+		"Dota_tooltip_ability_plants_attacker_4_description"	"Spawn Pumpkin.<br>Attack type: <font color='#f47fff'>RANGED</font><br>Feature: <font color='#ffc47f'>Attacks enemies from any lines</font><br>Ability: <font color='#ffc47f'>Split Attack</font><br>Pumpkin attacks several targets at once<br><br><font color='#7fffaa'>Health:  50</font><br><font color='#ff7f7f'>Damage:  75</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_attacker_4_upgrade"				"Upgrade Pumpkin"
+		"Dota_tooltip_ability_attacker_4_upgrade_description"	"<font color='#7fffaa'>Health:  75</font><br><font color='#ff7f7f'>Damage:  100</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_attacker_42_upgrade"				"Upgrade Pumpkin"
+		"Dota_tooltip_ability_attacker_42_upgrade_description"	"<font color='#7fffaa'>Health:  100</font><br><font color='#ff7f7f'>Damage:  125</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_attacker_4_attacks"				"Pumpkin attack"
+		"Dota_tooltip_ability_attacker_4_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_attacker_4_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_attacker_4_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_attacker_4_splash_attacks"				"Split Attack"
+		"Dota_tooltip_ability_attacker_4_splash_attacks_description"	"Pumpkin attacks several targets at once"
+		"Dota_tooltip_ability_attacker_4_splash_attacks_targets"	"<font color='#7fd0ff'>Maximum targets: </font>"			
+		
+		//===== PLANTS ATTACKER 5 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius
+		
+		"npc_plants_attacker_5"									"Bonsai"
+		"npc_plants_attacker_5_2"								"Bonsai"
+		"npc_plants_attacker_5_3"								"Bonsai"
+		"Dota_tooltip_ability_plants_attacker_5"				"Bonsai"
+		"Dota_tooltip_ability_plants_attacker_5_description"	"Spawn Bonsai.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1 CELL</font><br>Ability: <font color='#ff7fea'>Wooden Punch</font><br>Each attack can stun enemy<br><br><font color='#7fffaa'>Health:  150</font><br><font color='#ff7f7f'>Damage:  25</font><br><font color='#eeff7f'>Attack Rate:  0.5</font>"
+		"Dota_tooltip_ability_attacker_5_upgrade"				"Upgrade Bonsai"
+		"Dota_tooltip_ability_attacker_5_upgrade_description"	"<font color='#7fffaa'>Health:  200</font><br><font color='#ff7f7f'>Damage:  32</font><br><font color='#eeff7f'>Attack Rate:  0.4</font>"
+		"Dota_tooltip_ability_attacker_52_upgrade"				"Upgrade Bonsai"
+		"Dota_tooltip_ability_attacker_52_upgrade_description"	"<font color='#7fffaa'>Health:  250</font><br><font color='#ff7f7f'>Damage:  39</font><br><font color='#eeff7f'>Attack Rate:  0.3</font>"
+		"Dota_tooltip_ability_attacker_5_attacks"				"Bonsai attack"
+		"Dota_tooltip_ability_attacker_5_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_attacker_5_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_attacker_5_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_attacker_5_bash"					"Wooden Punch"
+		"Dota_tooltip_ability_attacker_5_bash_description"		"Each attack can stun enemy"
+		"Dota_tooltip_ability_attacker_5_bash_chance"			"%<font color='#ff7fea'>Chance : </font>"
+		"Dota_tooltip_ability_attacker_5_bash_duration"			"<font color='#ff7fea'>Duration : </font>"
+		
+		
+		//===== PLANTS DEFENDER 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius
+		
+		"npc_plants_defender_1"									"Acorn"
+		"npc_plants_defender_1_2"								"Acorn"
+		"npc_plants_defender_1_3"								"Acorn"
+		"Dota_tooltip_ability_plants_defender_1"				"Acorn"
+		"Dota_tooltip_ability_plants_defender_1_description"	"Spawn Acorn.<br>Attack type: <font color='red'>NONE</font><br>Health:  <font color='#7fffaa'>250</font>"
+		"Dota_tooltip_ability_defender_1_upgrade"				"Upgrade Acorn"
+		"Dota_tooltip_ability_defender_1_upgrade_description"	"<font color='#7fffaa'>Health:  500</font>"
+		"Dota_tooltip_ability_defender_12_upgrade"				"Upgrade Acorn"
+		"Dota_tooltip_ability_defender_12_upgrade_description"	"<font color='#7fffaa'>Health:  1000</font>"
+		"Dota_tooltip_ability_defender_1_attacks"				"Acorn."
+		"Dota_tooltip_ability_defender_1_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		
+		//===== PLANTS DEFENDER 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius
+		
+		"npc_plants_defender_2"									"Ent"
+		"npc_plants_defender_2_2"								"Ent"
+		"npc_plants_defender_2_3"								"Ent"
+		"Dota_tooltip_ability_plants_defender_2"				"Ent"
+		"Dota_tooltip_ability_plants_defender_2_description"	"Spawn Ent.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1/2 CELL</font><br><br><font color='#7fffaa'>Health:  500</font><br><font color='#ff7f7f'>Damage:  10</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_defender_2_upgrade"				"Upgrade Ent"
+		"Dota_tooltip_ability_defender_2_upgrade_description"	"<font color='#7fffaa'>Health:  800</font><br><font color='#ff7f7f'>Damage:  12</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_defender_22_upgrade"				"Upgrade Ent"
+		"Dota_tooltip_ability_defender_22_upgrade_description"	"<font color='#7fffaa'>Health:  1100</font><br><font color='#ff7f7f'>Damage:  14</font><br><font color='#eeff7f'>Attack Rate:  1.5</font>"
+		"Dota_tooltip_ability_attacker_2_attacks"				"Ent attack"
+		"Dota_tooltip_ability_defender_2_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_defender_2_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_defender_2_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		
+		
+		//===== PLANTS DEFENDER 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_defender_3"									"Spruce"
+		"npc_plants_defender_3_2"								"Spruce"
+		"npc_plants_defender_3_3"								"Spruce"
+		"Dota_tooltip_ability_plants_defender_3"				"Spruce"
+		"Dota_tooltip_ability_plants_defender_3_description"	"Spawn Spruce.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1/2 CELL</font><br>Ability: <font color='#15ff00'>Healing Needles</font><br>Increases the health regeneration of all plants<br><br><font color='#7fffaa'>Health:  600</font><br><font color='#15ff00'>Health Regen:  2</font><br><font color='#ff7f7f'>Damage:  15</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_defender_3_upgrade"				"Upgrade Spruce"
+		"Dota_tooltip_ability_defender_3_upgrade_description"	"<font color='#7fffaa'>Health:  900</font><br><font color='#15ff00'>Health Regen:  4</font><br><font color='#ff7f7f'>Damage:  20</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_defender_32_upgrade"				"Upgrade Spruce"
+		"Dota_tooltip_ability_defender_32_upgrade_description"	"<font color='#7fffaa'>Health:  1200</font><br><font color='#15ff00'>Health Regen:  6</font><br><font color='#ff7f7f'>Damage:  25</font><br><font color='#eeff7f'>Attack Rate:  2</font>"
+		"Dota_tooltip_ability_attacker_3_attacks"				"Spruce attack"
+		"Dota_tooltip_ability_defender_3_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_defender_3_attacks_hp_reg"		"<font color='#15ff00'>REGENERATION: </font>"
+		"Dota_tooltip_ability_defender_3_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_defender_3_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_defender_3_regen"					"Healing Needles"
+		"Dota_tooltip_ability_defender_3_regen_description"		"Increases the health regeneration of all plants"
+		"Dota_tooltip_ability_defender_3_regen_hp_reg"			"<font color='#15ff00'>REGENERATION: </font>"
+		"DOTA_Tooltip_modifier_defender_3_regen_aura"			"Healing Needles"
+		"DOTA_Tooltip_modifier_defender_3_regen_aura_description"	"Regeneration increased by %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%"
+		
+		//===== PLANTS DEFENDER 4 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_defender_4"									"Cactus"
+		"npc_plants_defender_4_2"								"Cactus"
+		"npc_plants_defender_4_3"								"Cactus"
+		"Dota_tooltip_ability_plants_defender_4"				"Cactus"
+		"Dota_tooltip_ability_plants_defender_4_description"	"Spawn Cactus.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1/2 CELL</font><br>Ability: <font color='#a0ab2c'>Thorns</font><br>Returns a damage back to attacker<br><br><font color='#7fffaa'>Health:  400</font><br><font color='#7f9bff'>Armor:  2</font><br><font color='#ff7f7f'>Damage:  15</font><br><font color='#eeff7f'>Attack Rate:  1</font>"
+		"Dota_tooltip_ability_defender_4_upgrade"				"Upgrade Cactus"
+		"Dota_tooltip_ability_defender_4_upgrade_description"	"<font color='#7fffaa'>Health:  700</font><br><font color='#7f9bff'>Armor:  4</font><br><font color='#ff7f7f'>Damage:  20</font><br><font color='#eeff7f'>Attack Rate:  1</font>"
+		"Dota_tooltip_ability_defender_42_upgrade"				"Upgrade Cactus"
+		"Dota_tooltip_ability_defender_42_upgrade_description"	"<font color='#7fffaa'>Health:  1000</font><br><font color='#7f9bff'>Armor:  6</font><br><font color='#ff7f7f'>Damage:  25</font><br><font color='#eeff7f'>Attack Rate:  1</font>"
+		"Dota_tooltip_ability_attacker_4_attacks"				"Cactus attack"
+		"Dota_tooltip_ability_defender_4_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_defender_4_attacks_armor"			"<font color='#7f9bff'>ARMOR: </font>"
+		"Dota_tooltip_ability_defender_4_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_defender_4_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_defender_4_skin"					"Thorns"
+		"Dota_tooltip_ability_defender_4_skin_description"		"Returns a damage back to attacker"
+		"Dota_tooltip_ability_defender_4_skin_dmg"				"%<font color='#a0ab2c'>RETURN: </font>"
+		"Dota_tooltip_modifeir_defender_4_skin"					"Thorns"
+		"Dota_tooltip_modifeir_defender_4_skin_description"		"Returns a damage back to enemy"
+		
+
+		//===== PLANTS DEFENDER 5 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_defender_5"									"Elder Ent"
+		"npc_plants_defender_5_2"								"Elder Ent"
+		"npc_plants_defender_5_3"								"Elder Ent"
+		"Dota_tooltip_ability_plants_defender_5"				"Elder Ent"
+		"Dota_tooltip_ability_plants_defender_5_description"	"Spawn Elder Ent.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1/2 CELL</font><br>Ability: <font color='#524fff'>Elder Armor</font><br>Increases the armor of all plants<br><br><font color='#7fffaa'>Health:  800</font><br><font color='#15ff00'>Health Regen:  3</font><br><font color='#7f9bff'>Armor:  3</font><br><font color='#ff7f7f'>Damage:  100</font><br><font color='#eeff7f'>Attack Rate:  4</font>"
+		"Dota_tooltip_ability_defender_5_upgrade"				"Upgrade Elder Ent"
+		"Dota_tooltip_ability_defender_5_upgrade_description"	"<font color='#7fffaa'>Health:  1400</font><br><font color='#15ff00'>Health Regen:  6</font><br><font color='#7f9bff'>Armor:  6</font><br><font color='#ff7f7f'>Damage:  125</font><br><font color='#eeff7f'>Attack Rate:  4</font>"
+		"Dota_tooltip_ability_defender_52_upgrade"				"Upgrade Elder Ent"
+		"Dota_tooltip_ability_defender_52_upgrade_description"	"<font color='#7fffaa'>Health:  2000</font><br><font color='#15ff00'>Health Regen:  9</font><br><font color='#7f9bff'>Armor:  9</font><br><font color='#ff7f7f'>Damage:  150</font><br><font color='#eeff7f'>Attack Rate:  4</font>"
+		"Dota_tooltip_ability_attacker_5_attacks"				"Elder Ent attack"
+		"Dota_tooltip_ability_defender_5_attacks_hp"			"<font color='#7fffaa'>HEALTH: </font>"
+		"Dota_tooltip_ability_defender_5_attacks_hp_reg"		"<font color='#15ff00'>REGENERATION: </font>"
+		"Dota_tooltip_ability_defender_5_attacks_armor"			"<font color='#7f9bff'>ARMOR: </font>"
+		"Dota_tooltip_ability_defender_5_attacks_damage"		"<font color='#ff7f7f'>DAMAGE: </font>"
+		"Dota_tooltip_ability_defender_5_attacks_ar"			"<font color='#eeff7f'>ATTACK RATE: </font>"
+		"Dota_tooltip_ability_defender_5_armor"					"Elder Armor"
+		"Dota_tooltip_ability_defender_5_armor_description"		"Increases the armor of all plants"
+		"Dota_tooltip_ability_defender_5_armor_armor"			"<font color='#7f9bff'>ARMOR: </font>"
+		
+		"DOTA_Tooltip_modifier_defender_5_armor_aura"			"Elder Armor"
+		"DOTA_Tooltip_modifier_defender_5_armor_aura_description"	"Armor increased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		
+		
+		//===== PLANTS SPECIAL 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_special_1"									"Sunflower"
+		"npc_plants_special_1_2"								"Sunflower"
+		"npc_plants_special_1_3"								"Sunflower"
+		"Dota_tooltip_ability_plants_special_1"					"Sunflower"
+		"Dota_tooltip_ability_plants_special_1_description"		"Spawn Sunflower.<br>Attack type: <font color='red'>NONE</font><br>Ability: <font color='#fff700'>Sun Gifts</font><br>Gives gold every 10 seconds<br><br><font color='#7fffaa'>Health:  50</font>"
+		"Dota_tooltip_ability_special_1_upgrade"				"Upgrade Sunflower"
+		"Dota_tooltip_ability_special_1_upgrade_description"	"<font color='#7fffaa'>Health:  100</font>"
+		"Dota_tooltip_ability_special_12_upgrade"				"Upgrade Sunflower"
+		"Dota_tooltip_ability_special_12_upgrade_description"	"<font color='#7fffaa'>Health:  150</font>"
+		"Dota_tooltip_ability_special_1_sunflower"				"Sun Gifts"
+		"Dota_tooltip_ability_special_1_sunflower_description"	"Gives gold to treant"
+		"Dota_tooltip_ability_special_1_sunflower_gold_gain"	"<font color='#fff700'>GOLD GAIN: </font>"
+		"Dota_tooltip_ability_special_1_sunflower_tick_interval" "<font color='#fff700'>INTERVAL: </font>"
+
+
+		//===== PLANTS SPECIAL 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_special_2"									"Potato Mine"
+		"npc_plants_special_2_2"								"Potato Mine"
+		"npc_plants_special_2_3"								"Potato Mine"
+		"Dota_tooltip_ability_plants_special_2"					"Potato Mine"
+		"Dota_tooltip_ability_plants_special_2_description"		"Spawn Potato Mine.<br>Attack type: <font color='red'>EXPLOOSIION!!</font><br>Ability: <font color='#ff4747'>Explosion</font><br>Explodes and deals area damage<br><br><font color='#7fffaa'>Health:  100</font>"
+		"Dota_tooltip_ability_special_2_mine"					"Explosion"
+		"Dota_tooltip_ability_special_2_mine_description"		"Gives gold to treant"
+		"Dota_tooltip_ability_special_2_mine_damage"			"<font color='#ff4747'>DAMAGE: </font>"
+		"Dota_tooltip_ability_special_2_mine_radius" 			"<font color='#ff4747'>RADIUS: </font>"
+		"Dota_tooltip_ability_special_2_mine_delay" 			"<font color='#ff4747'>INSTALLATION TIME: </font>"
+		
+		
+		//===== PLANTS SPECIAL 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armor #7fd0ff radius // 15ff00 regen
+		
+		"npc_plants_special_3"									"Wood Fang"
+		"npc_plants_special_3_2"								"Wood Fang"
+		"npc_plants_special_3_3"								"Wood Fang"
+		"Dota_tooltip_ability_plants_special_3"					"Wood Fang"
+		"Dota_tooltip_ability_plants_special_3_description"		"Spawn Wood Fang.<br>Attack type: <font color='#fdff7f'>MELEE</font><br>Attack Range: <font color='#fdff7f'>1 CELL</font><br>Ability: <font color='#ff4747'>Wood Bite</font><br>Swallow enemy<br><br><font color='#7fffaa'>Health:  200</font>"
+		"Dota_tooltip_ability_special_3_bite"					"Wood Bite"
+		"Dota_tooltip_ability_special_3_bite_description"		"Swallow zombies."
+		"Dota_tooltip_ability_special_3_bite_description_Note0"	"If the zombie has more than 1000 health, it will deal 1000 damage. If there are several zombies in range, and one of them is above the health limit, the woodfang will eat a smaller one"
+		"Dota_tooltip_ability_special_3_bite_hp_limit"			"<font color='#ff4747'>DAMAGE: </font>"
+		
+		
+
+		//"Dota_tooltip_ability_"
+		//"Dota_tooltip_ability__description"
+
+	}
+}

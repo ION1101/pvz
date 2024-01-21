@@ -1,0 +1,15 @@
+<root>
+	<script>
+			
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_TIMEOFDAY, true );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_HEROES, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD, false );
+
+		<include src="file://{resources}/scripts/custom_game/pvz_hud.js" />
+	</script>
+
+	<Panel>		
+		<CustomUIElement type="Hud"	layoutfile="file://{resources}/layout/custom_game/pvz_hud.xml" />		
+	</Panel>
+
+</root>

@@ -1,0 +1,166 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "color_10988977.vmat"
+								to = "materials/potato_mine/light_gray.vmat"
+							},
+							{
+								from = "color_14860437.vmat"
+								to = "materials/potato_mine/potato.vmat"
+							},
+							{
+								from = "color_15277357.vmat"
+								to = "materials/potato_mine/red.vmat"
+							},
+							{
+								from = "color_16448250.vmat"
+								to = "materials/potato_mine/white.vmat"
+							},
+							{
+								from = "color_2829873.vmat"
+								to = "materials/potato_mine/gray.vmat"
+							},
+							{
+								from = "color_6306067.vmat"
+								to = "materials/potato_mine/earth.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "main"
+						relative_origin = [ 0.139291, 5.011996, -0.219144 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_head"
+						parent_bone = "main"
+						relative_origin = [ 0.053434, 4.952981, -0.14608 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "potato_mine"
+						filename = "models/potato_mine/potato_mine.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "cube"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, -4.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, 0.0 ]
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/bushes/cube.fbx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 23
+						framerate = 24.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "main"
+						origin = [ -0.213412, 5.004193, -0.122671 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "main"
+								parent_bone = "main"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -32.869411, -34.924973, -0.5 ]
+								hitbox_maxs = [ 33.19944, 34.857681, 45.421822 ]
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = "Imported from VMDL"
+	}
+}

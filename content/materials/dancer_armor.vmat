@@ -1,0 +1,12 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[-0.234 0.820]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/dancer_armor_color.tga"
+}

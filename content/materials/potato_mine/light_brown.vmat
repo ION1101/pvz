@@ -1,0 +1,31 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Ambient Occlusion Map ----
+	F_AO_MAP 1
+
+	//---- Normal Maps ----
+	F_NORMAL_MAP 1
+
+	//---- Ambient Occlusion Map ----
+	g_flGradientBottom "0.000"
+	g_flGradientColorMultiplier "16.000"
+	g_flGradientTop "312.785"
+	g_vAmbientOcclusionColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vGradientBottomColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vGradientTopColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusionMap "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_vColorTint "[0.607843 0.552941 0.423529 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[0.360 0.362]"
+	TextureColor "materials/potato_mine/light_brown_color.tga"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	TextureNormal "materials/potato_mine/body_normal_color.tga"
+}

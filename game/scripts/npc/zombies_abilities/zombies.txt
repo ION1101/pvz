@@ -1,0 +1,475 @@
+""
+{
+	"z_1_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/zombie_gold"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"gpm"						"20"
+			}
+		}
+	}
+	"z_2_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/zombie_gold"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"gpm"						"40"
+			}
+		}
+	}
+	"z_3_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/zombie_gold"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"gpm"						"40"
+			}
+		}
+	}
+	"z_4_attack" // smeller
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"pudge_rot"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"interval"					"0.2" // change zombies.lua 498
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"150" // change zombies.lua 499
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"dmg"						"10" // change zombies.lua 500
+			}
+		}
+	}
+	"z_4_2_attack" // ice
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability4_2"
+		"AbilityCooldown"				"20"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"hp_limit"					"25" // pct
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"heal_percentage"			"15"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"duration"					"4" // change zombies.lua 500
+			}
+			"04"
+			{	
+				"var_type"					"FIELD_INTEGER"
+				"heal_additive"				"0"
+			}
+		}
+	}
+	"z_4_3_attack" // pumpkin
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"plants/attacker4_attacks"
+
+	}
+	"z_5_attack" // jumper
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability5_1"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"leap_distance"			"175"
+			"leap_speed"			"1000.0"
+			"leap_acceleration"		"6000.0"
+		}
+	}
+	"z_5_2_attack" // poison
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability5_2"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+	}
+	"z_5_3_attack" // ninja
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"troll_warlord_fervor"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+	}
+	
+	"cannon_attack1" // circuis
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/cannon_1"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"leap_distance"				"1580" // 
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"leap_speed"				"790" // 
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"leap_acceleration"			"1200" //
+			}
+		}
+
+
+	}
+	"cannon_attack2" // circuis
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/cannon_2"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"leap_distance"			"1780"
+			"leap_speed"			"890"
+			"leap_acceleration"		"1300.0"
+		}
+	}
+	"cannon_attack3" // circuis
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/cannon_3"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"leap_distance"			"1980"
+			"leap_speed"			"990"
+			"leap_acceleration"		"1400.0"
+		}
+	}
+
+	"cannon_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------														
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"FightRecapLevel"				"1"
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"zombies/cannon_1"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+
+
+			
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0 0 0 0"
+
+	}
+	"cannon_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------														
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"FightRecapLevel"				"1"
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"zombies/cannon_2"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+
+
+			
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0 0 0 0"
+
+	}
+	"cannon_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------														
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"FightRecapLevel"				"1"
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"zombies/cannon_3"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+
+
+			
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0 0 0 0"
+
+	}
+	"z_6_2_attack" // disco
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability6_2"
+		"AbilityCooldown"				"20"
+		"AbilityGoldCost"				"0"
+		"AbilityValues"
+		{
+			"dancer_hp"	"80"
+			"dancer_dmg" "8"			
+		}
+	}
+	"z_6_3_attack" // pharaon
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability6_3"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{	
+			"tomb_health" "150"		
+			"tomb_z_hp"	"40"
+			"tomb_z_dmg" "5"
+			"tomb_z_ms" "550"	
+		}
+
+	}
+	"pharaon_spawn" // pharaon
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability6_3_2"
+		"AbilityCooldown"				"5"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{			
+			"tomb_z_hp"	"35"
+			"tomb_z_dmg" "5"
+			"tomb_z_ms" "550"	
+		}
+
+	}
+	"z_7_attack" // gargantua flower
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability7_1"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"hp_regen"				"5"
+			"hp_per_attack"			"5"
+		}
+	}
+	"z_7_2_attack" // gargantua pudge
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/dog"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"dog_hp"	"95"
+			"dog_ms"	"250"
+			"dog_dps"	"15"
+			"dog_radius"	"150"
+		}
+
+	}
+	"summon_7" // pudge dog
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"pudge_rot"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"dps"					"15"
+			"radius"				"150"
+		}
+
+	}
+
+	"z_7_3_attack" // gargantua beast
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/zombies/zombies.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"zombies/ability7_3"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"0"
+		"AbilityGoldCost"				"0"
+
+		"AbilityValues"
+		{
+			"armor"					"5"//tooltips
+			"stun_duration"			"2"//tooltips
+			"duration"				"6"//tooltips
+		}
+
+	}
+
+}

@@ -1,0 +1,186 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc30:version{66cd490f-437b-4d7d-b009-7907d45422e2} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "lambert16.vmat"
+								to = "materials/sunflower/body.vmat"
+							},
+							{
+								from = "lambert17.vmat"
+								to = "materials/sunflower/body.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "Bone_004"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -48.315208, -36.356697, -44.16349 ]
+								hitbox_maxs = [ 50.657097, 82.049225, 21.453405 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Bone_003"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.642634, -32.343567, -2.398449 ]
+								hitbox_maxs = [ 18.57629, 30.455376, 18.416538 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Bone_002"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.000253, -0.310707, -2.164383 ]
+								hitbox_maxs = [ 0.000301, -0.072334, 1.992737 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "Bone_001"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -64.747856, -67.202927, -59.780979 ]
+								hitbox_maxs = [ 63.807838, 26.938496, 36.955795 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "sunflower"
+						filename = "models/sunflower/sunflower.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "sunflower_idle"
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = "default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/sunflower/sunflower_idle.fbx"
+						start_frame = 1
+						end_frame = 119
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "sunflower_death"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = "default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/sunflower/sunflower_death.fbx"
+						start_frame = 1
+						end_frame = 120
+						framerate = 24.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						parent_bone = "Bone_004"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from VMDL
+==Warnings==
+Changed incompatible hitbox parent bone name 'Bone.004' to 'Bone_004'
+Changed incompatible hitbox parent bone name 'Bone.003' to 'Bone_003'
+Changed incompatible hitbox parent bone name 'Bone.002' to 'Bone_002'
+Changed incompatible hitbox parent bone name 'Bone.001' to 'Bone_001'
+
+"""
+	}
+}

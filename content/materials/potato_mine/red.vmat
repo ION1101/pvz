@@ -1,0 +1,63 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- Ambient Occlusion Map ----
+	F_AO_MAP 1
+
+	//---- Normal Maps ----
+	F_NORMAL_MAP 1
+
+	//---- Specular ----
+	F_SPECULAR 1
+
+	//---- Ambient Occlusion Map ----
+	g_flGradientBottom "0.000"
+	g_flGradientColorMultiplier "5.818"
+	g_flGradientTop "200.000"
+	g_vAmbientOcclusionColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vGradientBottomColor "[0.109804 0.109804 0.117647 1.000000]"
+	g_vGradientTopColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusionMap "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_vColorTint "[0.792157 0.403922 0.403922 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/potato_mine/red_color.tga"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Self Illum ----
+	TextureSelfIllumMask "materials/default/default_selfillum.tga"
+
+	//---- Specular ----
+	g_flSpecularBloom "0.000"
+	g_flSpecularIntensity "7.000"
+	TextureBloom "materials/default/default_bloom.tga"
+	TextureReflectance "materials/potato_mine/white_color.tga"
+
+
+	VariableState
+	{
+		"Ambient Occlusion Map"
+		{
+		}
+		"Color"
+		{
+		}
+		"Normal Map"
+		{
+		}
+		"Self Illum"
+		{
+		}
+		"Specular"
+		{
+		}
+	}
+}

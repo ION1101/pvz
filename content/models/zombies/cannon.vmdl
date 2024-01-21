@@ -1,0 +1,245 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc31:version{165d48dd-8adc-4f1d-abf7-4992e04ad577} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "c1.vmat"
+								to = "materials/cannon_base.vmat"
+							},
+							{
+								from = "c2.vmat"
+								to = "materials/cannon_base.vmat"
+							},
+							{
+								from = "c3.vmat"
+								to = "materials/cannon_base.vmat"
+							},
+							{
+								from = "c4.vmat"
+								to = "materials/cannon_base.vmat"
+							},
+							{
+								from = "c5.vmat"
+								to = "materials/cannon_base.vmat"
+							},
+							{
+								from = "helm1.vmat"
+								to = "materials/helmet_color.vmat"
+							},
+							{
+								from = "helm2.vmat"
+								to = "materials/helmet_color3.vmat"
+							},
+							{
+								from = "helm3.vmat"
+								to = "materials/dev/journey_blue.vmat"
+							},
+							{
+								from = "helm4.vmat"
+								to = "materials/helmet_color2.vmat"
+							},
+							{
+								from = "undying.vmat"
+								to = "materials/models/heroes/undying/undying_body_color.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "mainbone"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -54.569302, -22.101809, -45.0 ]
+								hitbox_maxs = [ 56.5835, 155.736404, 70.0 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "cannon"
+						filename = "models/zombies/cannon.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "cannon_attack"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/zombies/cannon_attack.fbx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 179
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "cannon_run"
+						children = 
+						[
+							{
+								_class = "AnimSmoothLoop"
+								frames_from_start = 1
+								frames_from_end = 59
+							},
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/zombies/cannon_run.fbx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 59
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "cannon_idle"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Uniform"
+							},
+						]
+						activity_name = "ACD_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/zombies/cannon_idle.fbx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 9
+						framerate = 24.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_origin"
+						note = "Type note..."
+						parent_bone = "zombie_bone"
+						relative_origin = [ -1.293789, 30.663841, 0.901089 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from VMDL
+"""
+	}
+}

@@ -1,0 +1,325 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_treant"
+	{
+		"Model"		"models/heroes/treant_protector/treant_protector.vmdl"
+		"SoundSet"		"Hero_Treant"
+		"Enabled"		"1"
+		"Role"			"Support,Initiator,Durable,Disabler,Escape"
+		"Rolelevels"	"3,2,1,1,1"
+		"Complexity"	"2"
+		"Team"		"Good"
+		"HeroID"		"83"
+		"HeroOrderID"	"76"
+		"ModelScale"		"0.90000"
+		"VersusScale"		"0.750000"
+		"LoadoutScale"		"0.700000"
+		"PickSound"		"treant_treant_spawn_02"
+		"BanSound"		"treant_treant_anger_11"
+		"CMEnabled"		"1"
+		"workshop_guide_name"		"Treant Protector"
+		"new_player_enable"		"1"
+		"SimilarHeroes"		"85,103,105"
+		"LastHitChallengeRival"		"npc_dota_hero_tiny"
+		"HeroSelectSoundEffect"		"Hero_Treant.Pick"
+		"GibType"		"wood"
+		"GibTintColor"	"0 255 182 255"
+		//===============================================
+		"Ability1"		"spawn_attackers"
+		"Ability2"		"spawn_defenders"
+		"Ability3"		"spawn_specials"
+		"Ability4"		"dig_plant"
+		"Ability5"		"plant_watermelon"
+		"Ability6"		"treant_end_game"		
+		//===============================================
+		"Ability10"		"special_bonus_unique_treant_8"
+		"Ability11"		"special_bonus_unique_treant_12"
+		"Ability12"		"special_bonus_unique_treant_3"
+		"Ability13"		"special_bonus_unique_treant_9"
+		"Ability14"		"special_bonus_unique_treant_13"
+		"Ability15"		"special_bonus_unique_treant_2"
+		"Ability16"		"special_bonus_unique_treant_11"
+		"Ability17"		"special_bonus_unique_treant_7"
+		"ArmorPhysical"		"0"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRate"		"1.0"
+		"AttackAnimationPoint"		"1.00000"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"		"0"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeAgilityGain"		"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"StatusManaRegen"	"0"
+		"VisionDaytimeRange"		"10000"
+		"VisionNighttimeRange"		"10000"
+		"MovementSpeed"				"550"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"		
+		"particle_folder"		"particles/units/heroes/hero_treant"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_treant.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_treant.vsndevts"
+		"RenderablePortrait"
+		{
+			"Particles"
+			{
+				"particles/units/heroes/hero_treant/treant_loadout.vpcf"		"loadout"
+			}
+		}
+		"ItemSlots"
+		{
+			"0"
+			{
+				"SlotIndex"		"0"
+				"SlotName"		"weapon"
+				"SlotText"		"#LoadoutSlot_Weapon"
+				"DisplayInLoadout" "0"
+			}
+			"1"
+			{
+				"SlotIndex"		"1"
+				"SlotName"		"head"
+				"SlotText"		"#LoadoutSlot_Head"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"2"
+			{
+				"SlotIndex"		"2"
+				"SlotName"		"shoulder"
+				"SlotText"		"#LoadoutSlot_Shoulder"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"4000"
+				"MaxPolygonsLOD1"		"1600"
+			}
+			"3"
+			{
+				"SlotIndex"		"3"
+				"SlotName"		"arms"
+				"SlotText"		"#LoadoutSlot_Arms"
+				"TextureWidth"		"512"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"4"
+			{
+				"SlotIndex"		"4"
+				"SlotName"		"legs"
+				"SlotText"		"#LoadoutSlot_Legs"
+				"TextureWidth"		"512"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"5"
+			{
+				"SlotIndex"		"5"
+				"SlotName"		"taunt"
+				"SlotText"		"#LoadoutSlot_Taunt"
+			}
+			"6"
+			{
+				"SlotIndex"		"6"
+				"SlotName"		"costume"
+				"SlotText"		"#LoadoutSlot_Costume"
+			}
+		}
+		"Bot"
+		{
+			"HeroType"		"DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT"
+			"LaningInfo"
+			{
+				"SoloDesire"		"0"
+				"RequiresBabysit"		"1"
+				"ProvidesBabysit"		"1"
+				"SurvivalRating"		"2"
+				"RequiresFarm"		"0"
+				"ProvidesSetup"		"2"
+				"RequiresSetup"		"0"
+			}
+		}
+	}
+
+	"npc_dota_hero_undying"
+	{
+		"Model"		"models/heroes/undying/undying.vmdl"
+		"IdleExpression"		"scenes/undying/undying_exp_idle_01.vcd"
+		"SoundSet"		"Hero_Undying"
+		"IdleSoundLoop"		"Hero_Undying.IdleLoop"
+		"Enabled"		"1"
+		"Role"			"Support,Durable,Disabler,Nuker"
+		"Rolelevels"	"2,2,1,1"
+		"Complexity"	"1"
+		"Team"		"Bad"
+		"HeroID"		"85"
+		"HeroOrderID"	"84"
+		"ModelScale"		"0.90000"
+		"VersusScale"		"0.40000"
+		"LoadoutScale"		"0.40000"
+		"SpectatorLoadoutScale" "0.88"
+		"TransformedLoadoutScale" "0.73"  //Golem scale
+		"NameAliases"		"dirge"
+		"workshop_guide_name"		"Undying"
+		"PickSound"		"undying_undying_spawn_01"
+		"BanSound"		"undying_undying_anger_02"
+		"CMEnabled"		"1"
+		"new_player_enable"		"1"
+		"MovementSpeed"		"550"
+		"SimilarHeroes"		"83,102,84"
+		"LastHitChallengeRival"		"npc_dota_hero_sand_king"
+		"HeroSelectSoundEffect"		"Hero_Undying.Pick"
+		"GibType"		"goo"
+		"GibTintColor"	"73 82 68 255"
+		"Ability1"		""
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+		"Ability10"		"special_bonus_unique_undying_8"
+		"Ability11"		"special_bonus_unique_undying_7"
+		"Ability12"		"special_bonus_unique_undying"
+		"Ability13"		"special_bonus_unique_undying_6"
+		"Ability14"		"special_bonus_unique_undying_3"
+		"Ability15"		"special_bonus_unique_undying_2"
+		"Ability16"		"special_bonus_reincarnation_300"
+		"Ability17"		"special_bonus_unique_undying_5"
+		"ArmorPhysical"		"0"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRate"		"1.0"
+		"AttackAnimationPoint"		"1.00000"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"		"0"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeAgilityGain"		"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"StatusManaRegen"	"0"
+		"StatusMana"		"0"
+		"VisionDaytimeRange"		"10000"
+		"VisionNighttimeRange"		"10000"
+		"particle_folder"		"particles/units/heroes/hero_undying"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_undying.vsndevts"
+		"RenderablePortrait"
+		{
+			"Particles"
+			{
+				"particles/units/heroes/hero_undying/undying_loadout.vpcf"		"loadout"
+			}
+		}
+		"precache"
+		{
+			"model"		"models/heroes/undying/undying_flesh_golem.vmdl"
+		}
+		"ItemSlots"
+		{
+			"0"
+			{
+				"SlotIndex"		"0"
+				"SlotName"		"head"
+				"SlotText"		"#LoadoutSlot_Head"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"1"
+			{
+				"SlotIndex"		"1"
+				"SlotName"		"armor"
+				"SlotText"		"#LoadoutSlot_Armor"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"4000"
+				"MaxPolygonsLOD1"		"1600"
+			}
+			"2"
+			{
+				"SlotIndex"		"2"
+				"SlotName"		"arms"
+				"SlotText"		"#LoadoutSlot_Arms"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"1500"
+				"MaxPolygonsLOD1"		"600"
+			}
+			"3"
+			{
+				"SlotIndex"		"3"
+				"SlotName"		"ability3"
+				"SlotText"		"#LoadoutSlot_Undying_Tombstone"
+				"TextureWidth"		"0"
+				"TextureHeight"		"0"
+				"MaxPolygonsLOD0"	"0"
+				"MaxPolygonsLOD1"	"0"
+				"no_import"		"1"
+				"GeneratesUnits"
+				{
+					"0" "npc_dota_unit_tombstone"
+					"1" "npc_dota_unit_undying_zombie"
+				}
+			}
+			"4"
+			{
+				"SlotIndex"		"4"
+				"SlotName"		"ability4"
+				"SlotText"		"#LoadoutSlot_Undying_Flesh_Golem"
+				"no_import"		"1"
+				"LoadoutPreviewMode"		"transformation"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"6000"
+				"MaxPolygonsLOD1"		"3700"
+				"MaxBonesLOD0"			"62"
+				"MaxBonesLOD1"			"62"
+				"DisplayInLoadout"		"1"
+			}
+			"5"
+			{
+				"SlotIndex"		"5"
+				"SlotName"		"taunt"
+				"SlotText"		"#LoadoutSlot_Taunt"
+			}
+			"6"
+			{
+				"SlotIndex"		"6"
+				"SlotName"		"ambient_effects"
+				"SlotText"		"#LoadoutSlot_Ambient_Effects"
+				"DisplayInLoadout"		"0"
+			}
+		}
+		"Bot"
+		{
+			"HeroType"		"DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY"
+			"LaningInfo"
+			{
+				"SoloDesire"		"0"
+				"RequiresBabysit"		"1"
+				"ProvidesBabysit"		"0"
+				"SurvivalRating"		"1"
+				"RequiresFarm"		"1"
+				"ProvidesSetup"		"1"
+				"RequiresSetup"		"0"
+			}
+		}
+	}
+
+}

@@ -1,0 +1,605 @@
+﻿"lang"
+{
+	"Language"		"schinese"
+	"Tokens"
+	{		
+		
+			
+		"addon_game_name" 			"植物大战僵尸"
+
+		"error_cannot_dig_this" 		"WTF RU DOING??"
+
+		"DOTA_Winner_GoodGuys" 			"植物赢"
+		"DOTA_Winner_BadGuys" 			"僵尸获胜"
+		"DOTA_GoodGuys" 					"植物"
+		"DOTA_BadGuys" 					"僵尸"
+
+		"npc_dota_hero_treant" "蚂蚁	卫士"
+		"npc_dota_hero_undying" 			"愚蠢的僵尸"
+		
+		"npc _ dota _植物_实验室" 			"植物实验室"
+		"npc _ dota _僵尸_实验室" 			"僵尸实验室"
+		"npc_dota_creature_superdefender" "超级防御者	"
+		"npc_dota_creature_fence" 			"木栅栏"
+		"npc_dota_creature_tombstone" 		"墓碑"
+		"npc_dota_dj_eban" 					"DJ EBAN"
+		"Dota_tooltip_modifier_playing_original_song" 			"播放 PvZ 配乐"
+		"Dota_tooltip_ability_dj_eban_rap" 		"播放说唱歌曲"
+		"Dota_tooltip_ability_dj_eban_chill" "播放寒冷歌曲"
+		"Dota_tooltip_ability_dj_eban_original" "播放 PVZ 原声带"
+		
+		"Dota_tooltip_ability_dig_plant" 						"铲子"
+		"Dota_tooltip_ability_dig_plant_description" "挖出			选定的植物"
+		"Dota_tooltip_ability_treant_end_game" 					"赎金"
+		"Dota_tooltip_ability_treant_end_game_description" 		"还清僵尸"
+		"Dota_tooltip_ability_treant_end_game_lore" 				"僵尸会离开"
+	
+		"Dota_tooltip_ability_plant_watermelon" "种一个					西瓜"
+		"Dota_tooltip_ability_plant_watermelon_description" 		"在植物上种一个西瓜来保护它"
+		"Dota_tooltip_ability_plant_watermelon_hp" 				"<font color='#7fffaa'>健康：</font>"
+
+		"Dota_tooltip_ability_spawn_attackers" "生成					攻击者"
+		"Dota_tooltip_ability_spawn_attackers_description" 		"植物类型选择"
+		"Dota_tooltip_ability_spawn_defenders" "生成					防御者"
+		"Dota_tooltip_ability_spawn_defenders_description" 		"植物类型选择"
+		"Dota_tooltip_ability_spawn_specials" 					"产卵特价"
+		"Dota_tooltip_ability_spawn_specials_description" 		"植物类型选择。它是向日葵"
+		"Dota_tooltip_ability_plants_spawner_back" 				"返回"
+		"Dota_tooltip_ability_plants_spawner_back_description" "返回植物类型选择"
+		
+		
+		//================================================= ===============
+		//=============== 植物||实验室 ==============
+		//================================================= ===============
+
+		"Dota_tooltip_ability_plants_lab_gold" 								"实验室开发"
+		"Dota_tooltip_ability_plants_lab_gold_description" 					"每 15-20 秒给予植物金币"
+		"Dota_tooltip_ability_plants_lab_gold_gold_gain" 					"<font color='#fff700'>黄金利润：</font>"
+		
+		"Dota_tooltip_ability_plants_lab_watermelon" "升级						西瓜"
+		"Dota_tooltip_ability_plants_lab_watermelon_description" 			"增加西瓜生命值"
+		"Dota_tooltip_ability_plants_lab_watermelon_hp" 						"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_plants_lab_watermelon_2x2" "升级					西瓜"
+		"Dota_tooltip_ability_plants_lab_watermelon_2x2_description" 		"增加西瓜生命值"
+		"Dota_tooltip_ability_plants_lab_watermelon_2x2_hp" 					"<font color='#7fffaa'>健康：</font>"
+
+
+		//================================================= ===============
+		//==============僵尸||实验室 ==============
+		//================================================= ===============
+		"Dota_tooltip_ability_zombies_lab_gold" 								"实验室开发"
+		"Dota_tooltip_ability_zombies_lab_gold_description" 					"给僵尸金币"
+		"Dota_tooltip_ability_zombies_lab_gold_gpm" 							"<font color='#fff700'>每分钟黄金：</font>"
+		
+		"Dota_tooltip_ability_zombies_upgrade_health" "升级						健康"
+		"Dota_tooltip_ability_zombies_upgrade_health_description" 			"为所有僵尸提供额外的生命值。获得 50% 巨大的奖励"
+		"Dota_tooltip_ability_zombies_upgrade_health_health" 				"%<font color='#7fffaa'>健康奖励：</font>"
+		"Dota_tooltip_ability_zombies_upgrade_health_2x2" "升级						健康"
+		"Dota_tooltip_ability_zombies_upgrade_health_2x2_description" 			"为所有僵尸提供额外的生命值。获得 50% 巨大的奖励"
+		"Dota_tooltip_ability_zombies_upgrade_health_2x2_health" 				"%<font color='#7fffaa'>健康奖励：</font>"
+		"Dota_tooltip_modifier_upgrade_health_aura" 							"实验室改进"
+		"Dota_tooltip_modifier_upgrade_health_aura_description" 				"生命值增加 %dMODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE% %%"
+	
+		"Dota_tooltip_ability_zombies_upgrade_damage" "伤害						升级"
+		"Dota_tooltip_ability_zombies_upgrade_damage_description" 			"增加所有僵尸的攻击力。给予 gargantua 50% 加成"
+		"Dota_tooltip_ability_zombies_upgrade_damage_dmg" 					"%<font color='#ff6738'>伤害奖励：</font>"
+		"Dota_tooltip_ability_zombies_upgrade_damage_2x2" "伤害						升级"
+		"Dota_tooltip_ability_zombies_upgrade_damage_2x2_description" 			"增加所有僵尸的攻击力。给予巨兽 50% 加成"
+		"Dota_tooltip_ability_zombies_upgrade_damage_2x2_dmg" 					"%<font color='#ff6738'>伤害加成：</font>"
+		"Dota_tooltip_modifier_upgrade_damage_aura" 							"实验室改进"
+		"Dota_tooltip_modifier_upgrade_damage_aura_description" 				"伤害增加 %dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE% %%"
+		
+		"Dota_tooltip_ability_zombies_upgrade_armor" "升级						护甲"
+		"Dota_tooltip_ability_zombies_upgrade_armor_description" 			"增加所有僵尸的护甲。给予 gargantua 50% 加成"
+		"Dota_tooltip_ability_zombies_upgrade_armor_armor" 					"<font color='#4d73ff'>额外护甲：</font>"
+		"Dota_tooltip_ability_zombies_upgrade_armor_2x2" "升级						护甲"
+		"Dota_tooltip_ability_zombies_upgrade_armor_2x2_description" 			"增加所有僵尸的护甲。给予 gargantua 50% 加成"
+		"Dota_tooltip_ability_zombies_upgrade_armor_2x2_armor" 					"<font color='#4d73ff'>额外护甲：</font>"
+		"Dota_tooltip_modifier_upgrade_armor_aura" 							"实验室改进"
+		"Dota_tooltip_modifier_upgrade_armor_aura_description" 				"护甲增加 %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		"Dota_tooltip_ability_zombies_lab_mana" 								"MANA 升级"
+		"Dota_tooltip_ability_zombies_lab_mana_description" 					"增加墓碑的法力回复速度"
+		"Dota_tooltip_ability_zombies_lab_mana_mana_regen" 					"<font color='#4d73ff'>法力恢复奖励：</font>"
+		"Dota_tooltip_modifier_upgrade_mana_aura" 							"实验室改进"
+		"Dota_tooltip_modifier_upgrade_mana_aura_description" 				"法力升级增加 %dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%"
+		
+		"Dota_tooltip_ability_zombies_lab_cd_reduction" "冷却						改进"
+		"Dota_tooltip_ability_zombies_lab_cd_reduction_description" 			"减少僵尸的冷却时间。<br>同时减少僵尸技能的冷却时间。"
+		"Dota_tooltip_ability_zombies_lab_cd_reduction_cd_reduce" 			"%<font color='#A270FF'>冷却缩减：</font>"
+		"Dota_tooltip_ability_zombies_lab_cd_reduction_2x2" "冷却					增强"
+		"Dota_tooltip_ability_zombies_lab_cd_reduction_2x2_description" 		"减少僵尸的冷却时间。<br>同时减少僵尸技能的冷却时间。"
+		"Dota_tooltip_ability_zombies_lab_cd_reduction_2x2_cd_reduce" 		"%<font color='#A270FF'>冷却缩减：</font>"
+		"Dota_tooltip_modifier_upgrade_reduce_aura" 							"实验室改进"
+		"Dota_tooltip_modifier_upgrade_reduce_aura_description" 				"技能冷却时间减少 %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE% %%"
+		
+		"Dota_tooltip_ability_zombies_lab_gold_multiply" 					"黄金利润升级"
+		"Dota_tooltip_ability_zombies_lab_gold_multiply_description" 		"增加从所有来源获得的金币数量"
+		"Dota_tooltip_ability_zombies_lab_gold_multiply_g_multiply" 			"%<font color='#FFCD00'>黄金利润：+</font>"
+		"Dota_tooltip_ability_zombies_lab_gold_multiply_2x2" 					"黄金利润升级"
+		"Dota_tooltip_ability_zombies_lab_gold_multiply_2x2_description" 		"增加从所有来源获得的金币数量"
+		"Dota_tooltip_ability_zombies_lab_gold_multiply_2x2_g_multiply" 			"%<font color='#FFCD00'>黄金利润：+</font>"
+		
+		
+		"npc_dota_watermelon_1" 									"西瓜"
+		"npc_dota_watermelon_2" 									"西瓜"
+		"npc_dota_watermelon_3" 									"西瓜"
+		"npc_dota_creature_plants_pot" 							"灌木"
+		"Dota_tooltip_ability_ability_kill_line" 				"最后的壮举"
+		"Dota_工具提示_能力_能力_杀_线_描述" "当僵尸到达超级防御者时，他会以生命为代价消灭车道上的所有敌人"
+		
+		"Dota_tooltip_modifier_attacker_1_cooldown" 				"铁线莲冷却时间"
+		"Dota_tooltip_modifier_attacker_2_cooldown" 				"Nelum 冷却时间"
+		"Dota_tooltip_modifier_attacker_3_cooldown" 				"椰子冷却时间"
+		"Dota_tooltip_modifier_attacker_4_cooldown" 				"南瓜冷却时间"
+		"Dota_tooltip_modifier_attacker_5_cooldown" 				"盆景冷却时间"
+		
+		"Dota_tooltip_modifier_defender_1_cooldown" 				"橡子冷却时间"
+		"Dota_tooltip_modifier_defender_2_cooldown" "治疗				冷却时间"
+		"Dota_tooltip_modifier_defender_3_cooldown" 				"云杉冷却时间"
+		"Dota_tooltip_modifier_defender_4_cooldown" 				"仙人掌冷却时间"
+		"Dota_tooltip_modifier_defender_5_cooldown" "远古				树精冷却时间"
+		
+		"Dota_tooltip_modifier_special_1_cooldown" 				"向日葵冷却时间"
+		"Dota_tooltip_modifier_special_2_cooldown" 				"土豆冷却时间"
+		"Dota_tooltip_modifier_special_3_cooldown" 				"木牙冷却时间"
+		"Dota_tooltip_modifier_special_4_cooldown" 				"冬季树精冷却时间"
+		"Dota_tooltip_modifier_special_5_cooldown" 				"火龙果冷却时间"
+		
+		
+		
+		
+		//===== 植物攻击者 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor
+
+		"npc_plants_attacker_1" 									"铁线莲"
+		"npc_plants_attacker_1_2" 								"铁线莲"
+		"npc_plants_attacker_1_3" 								"铁线莲"
+		"Dota_tooltip_ability_plants_attacker_1" 				"铁线莲"
+		"Dota_tooltip_ability_plants_attacker_1_description""生成铁线莲。<br>攻击类型：<font color='#f47fff'>FAR</font><br><br><font color='#7fffaa'>生命值：40</font>< br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击时间：1</font>"
+		"Dota_tooltip_ability_attacker_1_upgrade" 				"铁线莲升级"
+		"Dota_tooltip_ability_attacker_1_upgrade_description""<font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：12</font><br><font color='#eeff7f' >攻击时间：0.9</font>"
+		"Dota_tooltip_ability_attacker_12_upgrade" 				"铁线莲升级"
+		"Dota_tooltip_ability_attacker_12_upgrade_description""授予一项新能力：<font color='#bf7fff'>双重攻击</font><br><br><font color='#7fffaa'>生命值： 40</font><br>< font color='#ff7f7f'>伤害：12</font><br><font color='#eeff7f'>攻击时间：0.9</font>"
+		"Dota_tooltip_ability_attacker_1_attacks" 				"铁线莲攻击"
+		"Dota_tooltip_ability_attacker_1_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_attacker_1_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_attacker_1_attacks_ar" 			"<font color='#eeff7f'>攻击间隔：</font>"
+		"Dota_tooltip_ability_attacker_1_double_attacks" 		"双重攻击"
+		"Dota_tooltip_ability_attacker_1_double_attacks_description" "铁线莲进行双重攻击"
+		
+		//===== PLANTS ATTACKER 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius
+
+		"npc_plants_attacker_2" 									"Nelum"
+		"npc_plants_attacker_2_2" 								"尼鲁姆"
+		"npc_plants_attacker_2_3" 								"Nelum"
+		"Dota_tooltip_ability_plants_attacker_2" 				"Nelum"
+		"Dota_tooltip_ability_plants_attacker_2_description""生成 Nelum。<br>攻击类型：<font color='#f47fff'>FAR</font><br>能力：<font color='#f47fff'>溅射攻击</font><br> Nelum 劈开目标周围的敌人<br><br><font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：15</font><br> <font color='#eeff7f'>攻击时间：1.5</font>"
+		"Dota_tooltip_ability_attacker_2_upgrade" 				"Nelum 升级"
+		"Dota_tooltip_ability_attacker_2_upgrade_description""<font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：18</font><br><font color='#eeff7f' >攻击时间：1.5</font>"
+		"Dota_tooltip_ability_attacker_22_upgrade" 				"Nelum 升级"
+		"Dota_tooltip_ability_attacker_22_upgrade_description""<font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：21</font><br><font color='#eeff7f' >攻击时间：1.5</font>"
+		"Dota_tooltip_ability_attacker_2_attacks" 				"Nelum 攻击"
+		"Dota_tooltip_ability_attacker_2_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_attacker_2_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_attacker_2_attacks_ar" 			"<font color='#eeff7f'>攻击间隔：</font>"
+		"Dota_tooltip_ability_attacker_2_splash" "溅射				攻击"
+		"Dota_tooltip_ability_attacker_2_splash_description" "Nelum 斩击目标周围的敌人"
+		"Dota_tooltip_ability_attacker_2_splash_radius" 			"<font color='#7fd0ff'>半径：</font>"			
+		"Dota_tooltip_ability_attacker_2_splash_damage" 			"%<font color='#ff7f7f'>伤害：</font>"
+
+		
+		//===== 植物攻击者 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius #fdff7f melee
+
+		"npc_plants_attacker_3" 									"椰子"
+		"npc_plants_attacker_3_2" 								"椰子"
+		"npc_plants_attacker_3_3" 								"椰子"
+		"Dota_tooltip_ability_plants_attacker_3" 				"椰子"
+		"Dota_tooltip_ability_plants_attacker_3_description""生成椰子。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1 CELL</font><br >能力：<font color='#fdff7f'>穿刺攻击</font><br>每次攻击都会使敌人的护甲降低 1..<br><br><font color='#7fffaa'>生命值：60< /font><br> font><br><font color='#ff7f7f'>伤害：15</font><br><font color='#eeff7f'>攻击时间：0.9</font>"
+		"Dota_tooltip_ability_attacker_3_upgrade" 				"椰子升级"
+		"Dota_tooltip_ability_attacker_3_upgrade_description""<font color='#7fffaa'>生命值：60</font><br><font color='#ff7f7f'>伤害：15</font><br><font color='#eeff7f' >攻击时间：0.7</font>"
+		"Dota_tooltip_ability_attacker_32_upgrade" 				"椰子升级"
+		"Dota_tooltip_ability_attacker_32_upgrade_description""<font color='#7fffaa'>生命值：60</font><br><font color='#ff7f7f'>伤害：15</font><br><font color='#eeff7f' >攻击时间：0.5</font>"
+		"Dota_tooltip_ability_attacker_3_attacks" 				"椰子攻击"
+		"Dota_tooltip_ability_attacker_3_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_attacker_3_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_attacker_3_attacks_ar" 			"<font color='#eeff7f'>攻击间隔：</font>"
+		"Dota_tooltip_ability_attacker_3_penetration" 			"穿刺攻击"
+		"Dota_tooltip_ability_attacker_3_penetration_description""每次攻击都会降低敌人的护甲。最大叠加层数：5"
+		"Dota_tooltip_ability_attacker_3_penetration_armor" 		"<font color='#7fd0ff'>护甲：</font>"			
+		"Dota_tooltip_ability_attacker_3_penetration_duration""<font color='#ff7f7f'>持续时间：</font>"
+		"Dota_tooltip_modifier_attacker_3_penetration_debuff" "穿刺攻击"
+		"Dota_tooltip_modifier_attacker_3_penetration_debuff_description" "护甲减少 %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		//===== PLANTS ATTACKER 4 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius
+
+		"npc_plants_attacker_4" 									"南瓜"
+		"npc_plants_attacker_4_2" 								"南瓜"
+		"npc_plants_attacker_4_3" 								"南瓜"
+		"Dota_tooltip_ability_plants_attacker_4" 				"南瓜"
+		"Dota_tooltip_ability_plants_attacker_4_description""生成南瓜。<br>攻击类型：<font color='#f47fff'>FAR</font><br>属性：<font color='#ffc47f'>从相邻车道攻击敌人</font> <br>能力：<font color='#ffc47f'>分裂攻击</font><br>南瓜一次攻击多个目标<br><br><font color='#7fffaa'>生命值：40</font > <br><font color='#ff7f7f'>伤害：20</font><br><font color='#eeff7f'>攻击时间：2</font>"
+		"Dota_tooltip_ability_attacker_4_upgrade" 				"南瓜升级"
+		"Dota_tooltip_ability_attacker_4_upgrade_description""<font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：25</font><br><font color='#eeff7f' >攻击时间：2</font>"
+		"Dota_tooltip_ability_attacker_42_upgrade" 				"南瓜升级"
+		"Dota_tooltip_ability_attacker_42_upgrade_description""<font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：30</font><br><font color='#eeff7f' >攻击时间：2</font>"
+		"Dota_tooltip_ability_attacker_4_attacks" 				"南瓜攻击"
+		"Dota_tooltip_ability_attacker_4_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_attacker_4_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_attacker_4_attacks_ar" 			"<font color='#eeff7f'>攻击间隔：</font>"
+		"Dota_tooltip_ability_attacker_4_splash_attacks" 				"分裂攻击"
+		"Dota_tooltip_ability_attacker_4_splash_attacks_description" "南瓜同时攻击多个敌人"
+		"Dota_tooltip_ability_attacker_4_splash_attacks_targets""<font color='#7fd0ff'>最大目标：</font>"	
+		"Dota_tooltip_ability_attacker_4_splash_attacks_dmg" 		"%<font color='#ff7f7f'>其他车道伤害：</font>"
+		
+		//===== 植物攻击者 5 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius
+"npc_plants_attacker_5" 											"万岁"
+		"npc_plants_attacker_5_2" 								"万岁"
+		"npc_plants_attacker_5_3" 								"万岁"
+		"Dota_tooltip_ability_plants_attacker_5" 				"万岁"
+		"Dota_tooltip_ability_plants_attacker_5_description""生成万岁。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1 CELL</font><br >能力：<font color='#ff7fea'>木击</font><br>每次攻击都可以击晕敌人<br><br><font color='#7fffaa'>生命值：60</font>< br> ><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击速度：0.5</font>"
+		"Dota_tooltip_ability_attacker_5_upgrade" "升级				万岁"
+		"Dota_tooltip_ability_attacker_5_upgrade_description""<font color='#7fffaa'>生命值：60</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f' >攻击速度：0.4</font>"
+		"Dota_tooltip_ability_attacker_52_upgrade" "升级				万岁"
+		"Dota_tooltip_ability_attacker_52_upgrade_description""<font color='#7fffaa'>生命值：60</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f' >攻击速度：0.3</font>"
+		"Dota_tooltip_ability_attacker_5_attacks" 				"万岁攻击"
+		"Dota_tooltip_ability_attacker_5_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_attacker_5_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_attacker_5_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		"Dota_tooltip_ability_attacker_5_bash" 					"木击"
+		"Dota_tooltip_ability_attacker_5_bash_description" 		"每次攻击都有几率击晕敌人"
+		"Dota_tooltip_ability_attacker_5_bash_chance" 			"%<font color='#ff7fea'>机会：</font>"
+		"Dota_tooltip_ability_attacker_5_bash_duration" 			"<font color='#ff7fea'>持续时间：</font>"
+		
+		
+		//===== 植物防御者 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius
+		
+		"npc_plants_defender_1" 									"橡子"
+		"npc_plants_defender_1_2" 								"橡子"
+		"npc_plants_defender_1_3" 								"橡子"
+		"Dota_tooltip_ability_plants_defender_1" 				"橡子"
+		"Dota_tooltip_ability_plants_defender_1_description""生成橡子。<br>攻击类型：<font color='red'>NO</font><br>生命值：<font color='#7fffaa'>300</font>"
+		"Dota_tooltip_ability_defender_1_upgrade" 				"橡子升级"
+		"Dota_tooltip_ability_defender_1_upgrade_description""<font color='#7fffaa'>生命值：450</font>"
+		"Dota_tooltip_ability_defender_12_upgrade" 				"橡子升级"
+		"Dota_tooltip_ability_defender_12_upgrade_description""<font color='#7fffaa'>生命值：600</font>"
+		"Dota_tooltip_ability_defender_1_attacks" 				"橡子。"
+		"Dota_tooltip_ability_defender_1_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		
+		//===== 植物防御者 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius
+		
+		"npc_plants_defender_2" "ENT 									"
+		"npc_plants_defender_2_2" "ENT 								"
+		"npc_plants_defender_2_3" "ENT 								"
+		"Dota_tooltip_ability_plants_defender_2" "ENT 				"
+		"Dota_tooltip_ability_plants_defender_2_description""生成 ENT。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1/2 CELL</font> <br><br><font color='#7fffaa'>健康：375</font><br><font color='#ff7f7f'>伤害：2</font><br><font color='# eeff7f'>攻击速度：1.5</font>"
+		"Dota_tooltip_ability_defender_2_upgrade" "ET 升级				"
+		"Dota_tooltip_ability_defender_2_upgrade_description""<font color='#7fffaa'>生命值：500</font><br><font color='#ff7f7f'>伤害：3</font><br><font color='#eeff7f' >攻击速度：1.5</font>"
+		"Dota_tooltip_ability_defender_22_upgrade" "ET 升级				"
+		"Dota_tooltip_ability_defender_22_upgrade_description""<font color='#7fffaa'>生命值：625</font><br><font color='#ff7f7f'>伤害：4</font><br><font color='#eeff7f' >攻击速度：1.5</font>"
+		"Dota_tooltip_ability_defender_2_attacks" "ENT				攻击"
+		"Dota_tooltip_ability_defender_2_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_defender_2_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_defender_2_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		
+		
+		//===== 植物防御者 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff armour #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_defender_3" 									"云杉"
+		"npc_plants_defender_3_2" 								"云杉"
+		"npc_plants_defender_3_3" 								"云杉"
+		"Dota_tooltip_ability_plants_defender_3" 				"云杉"
+		"Dota_tooltip_ability_plants_defender_3_description""生成云杉。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1/2 CELL</font> <br>能力：<font color='#15ff00'>治疗针</font>（主动）<br>使所选植物的生命恢复时间提高 10 秒。<br><br><font color='# 7fffaa'> 生命值：500</font><br><font color='#15ff00'>生命值回复：2</font><br><font color='#ff7f7f'>伤害：5</font>< br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_3_upgrade" "升级				云杉"
+		"Dota_tooltip_ability_defender_3_upgrade_description""<font color='#7fffaa'>生命值：625</font><br><font color='#15ff00'>生命值回复：4</font><br><font color='#ff7f7f '>伤害：7</font><br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_32_upgrade" "升级				云杉"
+		"Dota_tooltip_ability_defender_32_upgrade_description""<font color='#7fffaa'>生命值：750</font><br><font color='#15ff00'>生命值回复：6</font><br><font color='#ff7f7f '>伤害：9</font><br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_3_attacks" 				"云杉攻击"
+		"Dota_tooltip_ability_defender_3_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_defender_3_attacks_hp_reg" 		"<font color='#15ff00'>再生：</font>"
+		"Dota_tooltip_ability_defender_3_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_defender_3_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		"Dota_tooltip_ability_defender_3_regen" 					"医疗针"
+		"Dota_tooltip_ability_defender_3_regen_description" 		"增加所选植物的生命恢复速度"
+		"Dota_tooltip_ability_defender_3_regen_heal_per_second" 		"<font color='#15ff00'>再生：</font>"
+		"Dota_tooltip_ability_defender_3_regen_duration" 		"<font color='#3d7eff'>持续时间：</font>"
+		"DOTA_Tooltip_modifier_spruce_heal" 				"医疗针"
+		"DOTA_Tooltip_modifier_spruce_heal_description" "生命恢复增加"
+		
+		//===== 植物防御者 4 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_defender_4" 									"仙人掌"
+		"npc_plants_defender_4_2" 								"仙人掌"
+		"npc_plants_defender_4_3" 								"仙人掌"
+		"Dota_tooltip_ability_plants_defender_4" 				"仙人掌"
+		"Dota_tooltip_ability_plants_defender_4_description""生成仙人掌。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1/2 CELL</font> <br>能力：<font color='#a0ab2c'>荆棘</font>（主动）<br>向攻击者返回伤害<br><br><font color='#7fffaa'>生命值：440</font> font> <br><font color='#7f9bff'>护甲：2</font><br><font color='#ff7f7f'>伤害：5</font><br><font color='#eeff7f '> 攻击速度：1</font>"
+		"Dota_tooltip_ability_defender_4_upgrade" 				"仙人掌升级"
+		"Dota_tooltip_ability_defender_4_upgrade_description""<font color='#7fffaa'>生命值：550</font><br><font color='#7f9bff'>护甲：4</font><br><font color='#ff7f7f' >伤害：5</font><br><font color='#eeff7f'>攻击速度：1</font>"
+		"Dota_tooltip_ability_defender_42_upgrade" 				"仙人掌升级"
+		"Dota_tooltip_ability_defender_42_upgrade_description""<font color='#7fffaa'>生命值：640</font><br><font color='#7f9bff'>护甲：6</font><br><font color='#ff7f7f' >伤害：5</font><br><font color='#eeff7f'>攻击速度：1</font>"
+		"Dota_tooltip_ability_defender_4_attacks" 				"仙人掌攻击"
+		"Dota_tooltip_ability_defender_4_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_defender_4_attacks_armor" 			"<font color='#7f9bff'>盔甲：</font>"
+		"Dota_tooltip_ability_defender_4_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_defender_4_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		"Dota_tooltip_ability_defender_4_skin" 					"尖刺"
+		"Dota_tooltip_ability_defender_4_skin_description" 		"向攻击者返还伤害"
+		"Dota_tooltip_ability_defender_4_skin_dmg" 				"%<font color='#a0ab2c'>返回：</font>"
+		"Dota_tooltip_ability_defender_4_skin_duration" 			"<font color='#3d7eff'>持续时间：</font>"
+		"Dota_tooltip_modifeir_defender_4_skin" 					"尖刺"
+		"Dota_tooltip_modifeir_defender_4_skin_description" 		"向敌人返还伤害"
+		
+
+		//===== 植物防御者 5 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_defender_5" 									"大耳鼻喉科"
+		"npc_plants_defender_5_2" 								"大耳鼻喉科"
+		"npc_plants_defender_5_3" 								"大耳鼻喉科"
+		"Dota_tooltip_ability_plants_defender_5" 				"大耳鼻喉科"
+		"Dota_tooltip_ability_plants_defender_5_description""生成 Big ENT。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1/2 CELL</font <br>能力：<font color='#524fff'>大护甲</font><br>增加所有植物的护甲，持续 5 秒。<br><br><font color='#7fffaa'>健康： 750 </font><br><font color='#15ff00'>生命恢复：2</font><br><font color='#7f9bff'>护甲：2</font><br><font color = '#ff7f7f'>伤害：15</font><br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_5_upgrade" 				"耳鼻喉大升级"
+		"Dota_tooltip_ability_defender_5_upgrade_description""<font color='#7fffaa'>生命值：1000</font><br><font color='#15ff00'>生命值回复：4</font><br><font color='#7f9bff '>护甲：4</font><br><font color='#ff7f7f'>伤害：20</font><br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_52_upgrade" 				"耳鼻喉大升级"
+		"Dota_tooltip_ability_defender_52_upgrade_description""<font color='#7fffaa'>生命值：1250</font><br><font color='#15ff00'>生命值恢复：6</font><br><font color='#7f9bff '>护甲：6</font><br><font color='#ff7f7f'>伤害：20</font><br><font color='#eeff7f'>攻击速度：2</font>"
+		"Dota_tooltip_ability_defender_5_attacks" 				"大耳鼻喉攻击"
+		"Dota_tooltip_ability_defender_5_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_defender_5_attacks_hp_reg" 		"<font color='#15ff00'>再生：</font>"
+		"Dota_tooltip_ability_defender_5_attacks_armor" 			"<font color='#7f9bff'>盔甲：</font>"
+		"Dota_tooltip_ability_defender_5_attacks_damage" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_defender_5_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		"Dota_tooltip_ability_defender_5_armor" 					"大盔甲"
+		"Dota_tooltip_ability_defender_5_armor_description" 		"增加所有植物的护甲，持续 5 秒。"
+		"Dota_tooltip_ability_defender_5_armor_armor" 			"<font color='#7f9bff'>盔甲：</font>"
+		
+		"DOTA_Tooltip_modifier_defender_5_armor_aura" 			"大树精盔甲"
+		"DOTA_Tooltip_modifier_defender_5_armor_aura_description" "护甲增加 %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		
+		
+		//===== PLANTS SPECIAL 1 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_special_1" 									"向日葵"
+		"npc_plants_special_1_2" 								"向日葵"
+		"npc_plants_special_1_3" 								"向日葵"
+		"Dota_tooltip_ability_plants_special_1" 					"向日葵"
+		"Dota_tooltip_ability_plants_special_1_description" 		"生成向日葵。<br>攻击类型：<font color='red'>否</font><br>能力：<font color='#fff700'>太阳的礼物</font>< br>每 15 秒提供金币<br><br><font color='#7fffaa'>生命值：40</font>"
+		"Dota_tooltip_ability_special_1_upgrade" 				"向日葵升级"
+		"Dota_tooltip_ability_special_1_upgrade_description""<font color='#7fffaa'>生命值：40</font>"
+		"Dota_tooltip_ability_special_12_upgrade" 				"向日葵升级"
+		"Dota_tooltip_ability_special_12_upgrade_description""<font color='#7fffaa'>生命值：40</font>"
+		"Dota_tooltip_ability_special_1_sunflower" 				"太阳的礼物"
+		"Dota_tooltip_ability_special_1_sunflower_description" "给予 Ent 黄金"
+		"Dota_tooltip_ability_special_1_sunflower_gold_gain""<font color='#fff700'>黄金利润：</font>"
+		"Dota_tooltip_ability_special_1_sunflower_tick_interval" "<font color='#fff700'>间隔：</font>"
+
+
+		//===== PLANTS SPECIAL 2 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_special_2" 									"土豆矿"
+		"Dota_tooltip_ability_plants_special_2" 					"土豆矿"
+		"Dota_tooltip_ability_plants_special_2_description" "生成		土豆地雷。<br>攻击类型：<font color='red'>BLAST！！</font><br>能力：<font color='#ff4747'>爆炸</font><br >爆炸并造成溅射伤害<br><br><font color='#7fffaa'>生命值：40</font><br><font color='#ff7f7f'>伤害：250</font>"
+		"Dota_tooltip_ability_special_2_mine" 					"爆炸"
+		"Dota_tooltip_ability_special_2_mine_description" 		"当僵尸踩到地雷时，它会爆炸"
+		"Dota_tooltip_ability_special_2_mine_damage" 			"<font color='#ff4747'>伤害：</font>"
+		"Dota_tooltip_ability_special_2_mine_radius" 			"<font color='#ff4747'>半径：</font>"
+		"Dota_tooltip_ability_special_2_mine_delay" 			"<font color='#ff4747'>设定时间：</font>"
+		
+		
+		//===== PLANTS SPECIAL 3 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_special_3" 									"木牙"
+		"Dota_tooltip_ability_plants_special_3" 					"木牙"
+		"Dota_tooltip_ability_plants_special_3_description" "生成		木牙。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1 CELL</font>< br>能力：<font color='#ff4747'>咬树</font><br>吞下敌人<br><br><font color='#7fffaa'>生命值：60</font><br><字体颜色='#ff7f7f'>伤害：250</font>"
+		"Dota_tooltip_ability_special_3_bite" 					"树咬"
+		"Dota_tooltip_ability_special_3_bite_description" "吞下一个		僵尸。"
+		"Dota_tooltip_ability_special_3_bite_Note0" 				"如果范围内有多个僵尸并且其中一个的生命值超过了它的生命值限制，木牙会吃掉较小的那个"
+		"Dota_tooltip_ability_special_3_bite_hp_limit" 			"<font color='#ff4747'>伤害：</font>"
+		
+		//===== PLANTS SPECIAL 4 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_special_4" 									"冬季耳鼻喉科"
+		"Dota_tooltip_ability_plants_special_4" 					"冬季耳鼻喉科"
+		"Dota_tooltip_ability_plants_special_4_description" "生成		冬季 ENT。<br>攻击类型：<font color='#fdff7f'>NEAR</font><br>攻击范围：<font color='#fdff7f'>1 CELL</font>< br>能力：<font color='#3d7eff'>冻伤</font><br>冻结敌人 1.5 秒。<br><br><font color='#7fffaa'>生命值：60</font> <br> font><br><font color='#ff7f7f'>伤害：15</font><br><font color='#eeff7f'>攻击速度：2.5</font>"
+		"Dota_tooltip_ability_special_4_spell" "冻伤					"
+		"Dota_tooltip_ability_special_4_spell_description" 		"每次攻击都会冻结僵尸"
+		"Dota_tooltip_ability_special_4_spell_duration" 			"<font color='#3d7eff'>持续时间：</font>"
+		"Dota_tooltip_ability_special_4_def_attacks" 			"冬季耳鼻喉攻击"
+		"Dota_tooltip_ability_special_4_def_attacks_hp" 			"<font color='#7fffaa'>健康：</font>"
+		"Dota_tooltip_ability_special_4_def_attacks_dmg" 		"<font color='#ff7f7f'>伤害：</font>"
+		"Dota_tooltip_ability_special_4_def_attacks_ar" 			"<font color='#eeff7f'>攻击速度：</font>"
+		"Dota_tooltip_modifier_special_4_freeze_debuff" "冻伤			"
+		"Dota_tooltip_modifier_special_4_freeze_debuff_description" "冰冻的"
+
+	
+		//===== PLANTS SPECIAL 5 ==== //7fffaa hp ff7f7f dmg eeff7f at 7f9bff Armor #7fd0ff radius // 15ff00 增长
+		
+		"npc_plants_special_5" 									"火龙果"
+		"Dota_tooltip_ability_plants_special_5" 					"火龙果"
+		"Dota_tooltip_ability_plants_special_5_description" "生成		火龙果。<br>攻击类型：<font color='red'>BLAST！！</font><br>能力：<font color='#ff3d9b'>软爆炸</font><br > >爆炸在一条线上造成伤害<br><br><font color='#7fffaa'>生命值：1</font><br><font color='#ff7f7f'>伤害：50%</font> "
+		"Dota_tooltip_ability_special_5_spell" 					"软爆炸"
+		"Dota_tooltip_ability_special_5_spell_description" 		"死亡时爆炸并在一条直线上造成相当于敌人当前生命值 50% 的伤害。"
+		"Dota_tooltip_ability_special_5_spell_dmg" 				"%<font color='#ff4747'>伤害：</font>"
+		
+		
+		//================================================= =================================================== ========================
+		//================================================= =================================================== ========================
+		//================================================= =================================================== ========================
+		"npc_zombie_1" 											"僵尸"
+		"Dota_tooltip_ability_zombie_spawn_1" 					"普通僵尸"
+		"Dota_tooltip_ability_zombie_spawn_1_description" 		"为自动生成启用自动施法<br><br><font color='#7fffaa'>生命值：100</font><br><font color='#ff7f7f'>伤害：10</font> < br><font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：100</font><br><font color='gold' >每分钟金币：40</font>"
+		"Dota_tooltip_ability_z_1_attack" 						"僵尸生存"
+		"Dota_tooltip_ability_z_1_attack_description" 			"收集金币"
+		"Dota_tooltip_ability_z_1_attack_gpm" 					"<font color='#fff700'>每分钟金牌：</font>"
+			
+		
+		"npc_zombie_2" 											"装甲僵尸"
+		"Dota_tooltip_ability_zombie_spawn_2" 					"装甲僵尸"
+		"Dota_tooltip_ability_zombie_spawn_2_description" 		"为自动生成启用自动施法<br><br><font color='#7fffaa'>生命值：200</font><br><font color='#7f9bff'>护甲：2</font> < br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff' >移动速度：100</font><br><font color='gold'>每分钟黄金：80</font>"
+		"Dota_tooltip_ability_z_2_attack" 						"僵尸生存"
+		"Dota_tooltip_ability_z_2_attack_description" 			"收集金币"
+		"Dota_tooltip_ability_z_2_attack_gpm" 					"<font color='#fff700'>每分钟金牌：</font>"
+		
+		"npc_zombie_3" "迅捷											僵尸"
+		"Dota_tooltip_ability_zombie_spawn_3" "迅捷					僵尸"
+		"Dota_tooltip_ability_zombie_spawn_3_description" 		"为自动生成启用自动施法<br><br><font color='#7fffaa'>健康：115</font><br><font color='#ff7f7f'>伤害：15</font> < br><font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：300</font><br><font color='gold' >每分钟金币：80</font>"
+		"Dota_tooltip_ability_z_3_attack" 						"僵尸生存"
+		"Dota_tooltip_ability_z_3_attack_description" 			"收集金币"
+		"Dota_tooltip_ability_z_3_attack_gpm" 					"<font color='#fff700'>每分钟金牌：</font>"
+		
+		
+		"npc_zombie_4" 											"臭僵尸"
+		"Dota_tooltip_ability_zombie_spawn_4_1" 					"臭僵尸"
+		"Dota_tooltip_ability_zombie_spawn_4_1_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#53FF50'>恶臭</font><br>对 %radius% 范围内的植物造成伤害。每秒伤害：10< br ><br><font color='#7fffaa'>健康：140</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f' >攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：150"
+		"Dota_tooltip_ability_z_4_attack" "难闻的						气味"				
+		"Dota_tooltip_ability_z_4_attack_description" 			"对范围内的所有植物造成伤害"
+		"Dota_tooltip_ability_z_4_attack_radius" 				"<font color='#BDFA5F'>半径：</font>"
+		"Dota_tooltip_ability_z_4_attack_dmg" 					"<font color='#ff7f7f'>DPS：</font>"
+		"Dota_tooltip_z_modifier_smelly" 						"有毒气味"
+		
+		"npc_zombie_4_2" 										"冰僵尸"
+		"Dota_tooltip_ability_zombie_spawn_4_2" "冰冻					僵尸"
+		"Dota_tooltip_ability_zombie_spawn_4_2_description" 		"为自动生成开启自动施法<br><br>能力：<font color='#50FFF4'>冰盾</font><br>将自己包裹在冰茧中，冻结并恢复他最大的一部分每秒生命值茧会阻挡所有物理伤害。<br><br><font color='#7fffaa'>生命值：140</font><br><font color='#ff7f7f'>伤害：10</font ><br ><font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：150"
+		"Dota_tooltip_ability_z_4_2_attack" 						"冰盾"				
+		"Dota_tooltip_ability_z_4_2_attack_description" "			将自己包裹在一个冰冷的茧中，每秒冻结并恢复其最大生命值的一部分。茧可以阻挡所有物理伤害。"
+		"Dota_tooltip_ability_z_4_2_attack_hp_limit" 			"%<font color='#50FF78'>生命值限制：</font>"
+		"Dota_tooltip_ability_z_4_2_attack_heal_percentage" 		"%<font color='#50FFF4'>每秒治疗：</font>"
+		"Dota_tooltip_ability_z_4_2_attack_duration" 			"<font color='#50A1FF'>持续时间：</font>"
+		"Dota_tooltip_modifier_winter_wyvern_cold_embrace" 		"冰盾"
+		"Dota_tooltip_modifier_winter_wyvern_cold_embrace_description" "格挡所有物理伤害"
+		
+		"npc_zombie_4_3" 										"僵尸南瓜"
+		"Dota_tooltip_ability_zombie_spawn_4_3" 					"僵尸南瓜"
+		"Dota_tooltip_ability_zombie_spawn_4_3_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#FDFF50'>在南瓜中</font><br>不能用南瓜攻击<br><br><font color=' # 7fffaa'>健康：140</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击速度：1.0</font> < br><font color='#59c2ff'>运动速度：150"
+		"Dota_tooltip_ability_z_4_3_attack" 						"在南瓜中"		
+		"Dota_tooltip_ability_z_4_3_attack_description" 			"南瓜不会攻击他"
+
+		"npc_zombie_5" 											"保镖"
+		"Dota_tooltip_ability_zombie_spawn_5_1" "生成跳线					"
+		"Dota_tooltip_ability_zombie_spawn_5_1_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#50FFF4'>跳跃</font><br>跳过植物<br><br><font color='#7fffaa '>健康：110</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击速度：1.0</font><br ><font color='#59c2ff'>运动速度：200"
+		"Dota_tooltip_ability_z_5_attack" 						"跳过"				
+		"Dota_tooltip_ability_z_5_attack_description" 			"跳过植物"
+
+		"npc_zombie_5_2" 										"毒僵尸"
+		"Dota_tooltip_ability_zombie_spawn_5_2" 					"毒僵尸"
+		"Dota_tooltip_ability_zombie_spawn_5_2_description" 		"启用自动施法以自动生成<br><br>能力：<font color='#53FF50'>中毒攻击</font><br>每次攻击都会使受害者中毒并每秒造成伤害。每次攻击都会增加毒药的效果。<br><br><font color='#7fffaa'>健康：110</font><br><font color='#ff7f7f'>伤害：10</font><br>< font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：200"
+		"Dota_tooltip_ability_z_5_2_attack" 						"毒药攻击"				
+		"Dota_tooltip_ability_z_5_2_attack_description" 			"每次攻击都会增加敌人身上的毒药层数，每秒造成伤害<br><br><font color='#ff7f7f'>每层伤害：<b>2</b></font >"
+		"Dota_tooltip_modifier_zombie_poison" 					"僵尸毒药"
+		
+		"npc_zombie_5_3" 										"武士"
+		"Dota_tooltip_ability_zombie_spawn_5_3" 					"武士"
+		"Dota_tooltip_ability_zombie_spawn_5_3_description" 		"启用自动施法以自动生成<br><br>能力：<font color='#FDFF50'>武士攻击</font><br>每次攻击都比前一次更快。每次攻击的攻击速度：15 <br>< br><font color='#7fffaa'>健康：110</font><br><font color='#ff7f7f'>伤害：8</font><br><font color='# eeff7f'>速度攻击：1.0</font><br><font color='#59c2ff'>移动速度：250"
+		"Dota_tooltip_ability_z_5_3_attack" 						"武士攻击"				
+		"Dota_tooltip_ability_z_5_3_attack_description" 			"每次攻击都会提高攻击速度<br><br><font color='#FDFF50'>每层攻击速度：<b>15</b></font>"
+		"Dota_tooltip_modifier_zombie_ninja" 					"武士攻击"
+		"Dota_tooltip_modifier_zombie_ninja_description" 		"攻击速度提高 %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%"
+		
+		"npc_zombie_6" 											"马戏僵尸"
+		"Dota_tooltip_ability_zombie_spawn_6_1" 					"马戏僵尸"
+		"Dota_tooltip_ability_zombie_spawn_6_1_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#53FF50'>大炮射击</font><br>从大炮中远距离射击僵尸。距离可以是手动选择<br><font color='#7fffaa'>健康：90</font><br><font color='#ff7f7f'>伤害：15</font><br><font color=' #eeff7f' >攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：200"
+
+		"npc_cannon" 											"大炮"
+		"Dota_tooltip_ability_cannon_1" 							"弱击"
+		"Dota_tooltip_ability_cannon_1_description" "				在第三格射击僵尸。<br>如果那里有植物，则不能射击。最小距离为 3 格"
+		"Dota_tooltip_ability_cannon_2" "中弹							"
+		"Dota_tooltip_ability_cannon_2_description" "				在第四格射击僵尸。<br>如果那里有植物，则不能射击。最小距离为 3 格"
+		"Dota_tooltip_ability_cannon_3" "远射							"
+		"Dota_tooltip_ability_cannon_3_description" "				在第五格射击僵尸。<br>如果那里有植物，则不能射击。最小距离为 3 格"
+		"DOTA_Tooltip_modifier_cannon_3" 						"第三槽"
+		"DOTA_Tooltip_modifier_cannon_4" "插槽						四"
+		"DOTA_Tooltip_modifier_cannon_5" 						"第五槽"
+		
+		"npc_zombie_6_2" 										"舞者"
+		"npc_zombie_6_2_summon" 									"舞者"
+		"Dota_tooltip_ability_zombie_spawn_6_2" 					"比利舞者"
+		"Dota_tooltip_ability_zombie_spawn_6_2_description" 		"启用自动施法以自动生成<br><br>能力：<font color='#50FFF4'>跳舞</font><br>开始跳舞并在相邻车道召唤 4 个舞者。<br> 舞者有 75生命值和 5 点伤害。<br><br><font color='#7fffaa'>健康：115</font><br><font color='#ff7f7f'>伤害：10</font><br>< font color='#eeff7f'>攻击速度：1.0</font><br><font color='#59c2ff'>移动速度：200"
+		"Dota_tooltip_ability_z_6_2_attack" 						"比利舞"		
+		"Dota_tooltip_ability_z_6_2_attack_description" 			"在相邻车道召唤 4 名舞者。<br><br><font color='#7fffaa'>舞者健康：<b>75</b></font><br><font color='# ff7f7f'>舞者伤害：<b>5</b></font><br><font color='#eeff7f'>舞者攻击速度：1.0</font><br><font color='#59c2ff' >舞者移动速度：<b>200</b></font>"
+		
+		"npc_zombie_6_3" 										"法老"
+		"Dota_tooltip_ability_zombie_spawn_6_3" 					"法老"
+		"Dota_tooltip_ability_zombie_spawn_6_3_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#FDFF50'>法老之墓</font><br>放置一个墓穴，每 5 秒生成一次僵尸。<br> 墓穴有170 生命值<br>僵尸拥有 30 生命值、5 伤害和 550 移动速度<br><br><font color='#7fffaa'>生命值：115</font><br><font color='#ff7f7f'>伤害：10</font><br><font color='#eeff7f'>攻击速度：1.0"
+		"Dota_tooltip_ability_z_6_3_attack" 						"古墓"		
+		"Dota_tooltip_ability_z_6_3_attack_description" 			"创建一个每 5 秒产生一个僵尸的坟墓<br><br><font color='#7fffaa'>ZOMBIE HEALTH: <b>30</b></font><br><font color = '#ff7f7f'>僵尸伤害：<b>5</b></font><br><font color='#eeff7f'>僵尸攻击速度：1.0</font><br><font color=' # 59c2ff'>僵尸移动速度：<b>550</b></font>"
+		
+		"npc_phaaon_tomb" 										"坟墓"
+		"npc_phaaon_zombie" 									"法老僵尸"
+		"Dota_tooltip_ability_phaaon_spawn" 					"坟墓"
+		"Dota_tooltip_ability_pharaon_spawn_description" 		"僵尸每 5 秒生成一次<br><br><font color='#7fffaa'>僵尸健康：<b>30</b></font><br><font color='#ff7f7f' >僵尸伤害：<b>5</b></font><br><font color='#eeff7f'>僵尸攻击速度：1.0</font><br><font color='#59c2ff'>僵尸移动速度：<b>550</b></font>"
+		
+		"npc_zombie_7" 											"花巨人"
+		"Dota_tooltip_ability_zombie_spawn_7_1" 					"花巨人"
+		"Dota_tooltip_ability_zombie_spawn_7_1_description" 		"为自动生成启用自动施法<br><br>能力：<font color='#53FF50'>叛逆本性</font><br>光环。每次攻击都会为攻击者治疗 5 点生命值<br><br> <font color='#7fffaa'>健康：525</font><br><font color='#15ff00'>再生健康：10</font>< br><font color='#ff7f7f'>伤害： 100</font><br><font color='#eeff7f'>攻击速度：2.0</font><br><font color='#59c2ff'> 移动速度：200"
+		"Dota_tooltip_ability_z_7_attack" 						"叛逆天性"
+		"Dota_tooltip_ability_z_7_attack_description" 			"每次攻击恢复 5 HP"
+		"Dota_tooltip_modifier_gargantua_flower_aura" 			"叛逆的天性"
+		"Dota_tooltip_modifier_gargantua_flower_aura_description""每次命中恢复 5 点生命值。"
+		
+		"npc_zombie_7_2" 										"屠夫"
+		"npc_summon_7_2" 										"屠夫的狗"
+		"Dota_tooltip_ability_zombie_spawn_7_2" 					"屠夫"
+		"Dota_tooltip_ability_zombie_spawn_7_2_description" 		"启用自动施法以自动生成<br><br>能力：<font color='#50FFF4'>猎人的召唤</font><br>召唤向前奔跑并造成伤害的猎犬。<br >狗有 85 生命值，250 移动速度，每秒对 150 范围内的敌人造成 15 点伤害<br><br><font color ='#7fffaa'>健康：550</font><br><font color=' #ff7f7f' >伤害：100</font><br><font color='#eeff7f'>攻击速度：2.0</font><br><font color='#59c2ff'>移动速度：180"
+		"Dota_tooltip_ability_z_7_2_attack" 						"猎人召唤"
+		"Dota_tooltip_ability_z_7_2_attack_description" 			"召唤一条猎犬向前穿过敌人并造成伤害。<br>猎犬有 85 生命值，250 移动速度，每秒对 150 范围内的敌人造成 15 点伤害。"
+		"Dota_tooltip_ability_summon_7" "难闻的							气味"				
+		"Dota_tooltip_ability_summon_7_description" 				"对范围内的所有植物造成伤害"
+		"Dota_tooltip_ability_summon_7_radius" 					"<font color='#BDFA5F'>半径：</font>"
+		"Dota_tooltip_ability_summon_7_dps" 						"<font color='#ff7f7f'>DPS：</font>"		
+		
+		"npc_zombie_7_3" 										"恶性巨兽"
+		"Dota_tooltip_ability_zombie_spawn_7_3" 					"恶性巨兽"
+		"Dota_tooltip_ability_zombie_spawn_7_3_description" 		"将自动施法设置为自动生成<br><br>能力：<font color='#FDFF50'>愤怒咆哮</font><br>使所有植物昏迷 2 秒，并使其护甲降低 5，持续 6 秒 < br><br><font color='#7fffaa'>健康：525</font><br><font color='#ff7f7f'>伤害：100</font><br><font color='# eeff7f '>攻击速度：2.0</font><br><font color='#59c2ff'>移动速度：200"
+		"Dota_tooltip_ability_z_7_3_attack" "愤怒的						咆哮"
+		"Dota_tooltip_ability_z_7_3_attack_description" "眩晕			所有植物并降低它们的护甲。"
+		"Dota_tooltip_ability_z_7_3_attack_stun_duration" 		"<font color='#50A1FF'>STUN 持续时间：</font>"
+		"Dota_tooltip_ability_z_7_3_attack_armor" 				"<font color='#50A1FF'>护甲减少：</font>"
+		"Dota_tooltip_ability_z_7_3_attack_duration" 			"<font color='#50A1FF'>护甲持续时间：</font>"
+		"Dota_tooltip_modifier_fear_scream" "愤怒的						咆哮"
+		"Dota_tooltip_modifier_fear_scream_description" 			"护甲减少 5"
+		
+	
+		
+		// 		"Dota_tooltip_ability_"
+		// 		"Dota_tooltip_ability_description"
+		// 		"Dota_tooltip_ability_"
+		// 		"Dota_tooltip_ability_description"
+
+		// 		"Dota_tooltip_ability_"
+		// 		"Dota_tooltip_ability_description"
+
+
+		"Dota_tooltip_modifier_rap_1"						"Jake Hill - Satin Black"
+		"Dota_tooltip_modifier_rap_2"						"Redzed - Straight Outta Flames"
+		"Dota_tooltip_modifier_rap_3"						"NF - When I Grow Up"
+		"Dota_tooltip_modifier_rap_4"						"XXXTentacion - Look At Me"
+		"Dota_tooltip_modifier_rap_5"						"Zero 9:36 - The Box"
+		"Dota_tooltip_modifier_rap_6"						"Write This Down (Mashup)"
+		"Dota_tooltip_modifier_rap_7"						"Dr.Dre - What The Difference"
+		"Dota_tooltip_modifier_rap_8"						"Lil Nas X - Industry Baby"
+		"Dota_tooltip_modifier_rap_9"						"Denzel Curry - Ultimate"
+		"Dota_tooltip_modifier_rap_10"						"T.I. - 24's"
+		
+		"Dota_tooltip_modifier_chill_1"						"Bobby Vinton"
+		"Dota_tooltip_modifier_chill_1_description"			"Mr. Lonely (lofi)"
+		"Dota_tooltip_modifier_chill_2"						"Build Me Up Buttercup"
+		"Dota_tooltip_modifier_chill_2_description"			"Reigh Lofi Remix"
+		"Dota_tooltip_modifier_chill_3"						"Gustixa"
+		"Dota_tooltip_modifier_chill_3_description"			"Lemon Tree"
+		"Dota_tooltip_modifier_chill_4"						"Daft Punk"
+		"Dota_tooltip_modifier_chill_4_description"			"Get Lucky"
+		"Dota_tooltip_modifier_chill_5"						"Feder"
+		"Dota_tooltip_modifier_chill_5_description"			"Goodbye (slowed+reverb)"
+		"Dota_tooltip_modifier_chill_6"						"Coolio"
+		"Dota_tooltip_modifier_chill_6_description"			"Gangsta Paradise (lofi)"
+		"Dota_tooltip_modifier_chill_7"						"Gnarls Barkley"
+		"Dota_tooltip_modifier_chill_7_description"			"Crazy"
+		"Dota_tooltip_modifier_chill_8"						"iamnotshane"
+		"Dota_tooltip_modifier_chill_8_description"			"Maybe my Soulmate Died"
+		"Dota_tooltip_modifier_chill_9"						"Justin Tumberlake"
+		"Dota_tooltip_modifier_chill_9_description"			"Cry me a river (lofi)"
+		"Dota_tooltip_modifier_chill_10"					"Miki Matsubara"
+		"Dota_tooltip_modifier_chill_10_description"		"Stay With Me (remix)"
+		"Dota_tooltip_modifier_chill_11"					"Tame Impala"
+		"Dota_tooltip_modifier_chill_11_description"		"The Less I Know The Better"
+	
+
+	}
+}
